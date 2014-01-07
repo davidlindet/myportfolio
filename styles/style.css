@@ -1,0 +1,248 @@
+/* ---- RESET CSS ---- */
+
+html, body {
+    height: 100%;
+}
+
+html {
+    font-size: 100%;
+    overflow-y: scroll;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #000;
+    line-height: 1.231;
+    font-size: 12px;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+    display: block;
+}
+
+* {
+    outline: none;
+}
+
+p {
+    text-align: left;
+    margin: 0 0 10px 0;
+    line-height: 18px;
+}
+
+p:last-child {
+    margin: 0;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    vertical-align: middle;
+}
+
+nav ul {
+    list-style: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
+}
+
+fieldset, figure, form {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+    *vertical-align: middle;
+}
+
+button, input {
+    line-height: normal;
+    *overflow: visible;
+}
+
+table button, table input {
+    *overflow: auto;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+    -webkit-appearance: button;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+}
+
+label, input, select, textarea {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: normal;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+    resize: vertical;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td {
+    vertical-align: top;
+}
+
+/* ---- LINKS ---- */
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a img {
+    border: none;
+}
+
+/* ---- HEADERS ---- */
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h6 {
+    font-size: 13px;
+}
+
+/* ---- TEXT SELECTION ---- */
+
+::-moz-selection {
+
+}
+
+::selection {
+
+}
+
+/* ---- BACKGROUND ---- */
+.background-overlay {
+    position: fixed;
+    top: 0 ;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: url('../img/background/black_dot.png') top left repeat;
+    z-index: -100;
+}
+
+/* ---- FORMS ---- */
+
+/* ---- TOOLS ---- */
+.clear {
+    clear: both;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 20px;
+}
+
+.aligncenter {
+    margin: 0 auto;
+}
+
+.alignright {
+    float: right;
+    margin-left: 20px;
+}
+
+.relative {
+    position: relative;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.hidden {
+    overflow: hidden;
+}
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.ib {
+    display: inline-block;
+}
+
+.indent {
+    text-indent: -7000px;
+}
+
+.nomargin {
+    margin: 0px;
+}
+
+/* ---- LEFT NAV ---- */
+
+/* ---- CONTENT ---- */
+
+
+
+
+
+
+
+
+
+
