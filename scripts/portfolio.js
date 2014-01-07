@@ -31,13 +31,13 @@ var portfolio = (function() {
 
         $('#hide').click(function() {
             if(isDisplay){
-                $('#navbar').animate({left:'-230'});
+                $('#sidebar').animate({left:'-230'});
                 $('#hide').animate({right:'-70'});
                 $('#hide').addClass('show');
                 isDisplay = false;
             }
             else {
-                $('#navbar').animate({left:'0'});
+                $('#sidebar').animate({left:'0'});
                 $('#hide').animate({right:'-29'});
                 $('#hide').removeClass('show');
                 isDisplay = true;

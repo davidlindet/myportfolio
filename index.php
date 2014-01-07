@@ -21,7 +21,7 @@
  
 <body>
     <div id="background-overlay"></div>
-    <div id="navbar">
+    <aside id="sidebar">
         <div class="hide" id="hide"></div>
         <div id="logo">
             <img src="img/content/logo.png">
@@ -44,6 +44,6 @@
         <div id="copyright">
             <p><strong>Copyright ©2014</strong><br>Based on a tutorial of <a href="http://fr.tuto.com/formateur/spykrew07-tutos.htm">Spykrew07</a></p>
         </div>
-    </div>
+    </aside>
 </body>
 </html>
