@@ -114,45 +114,38 @@ td {
 }
 
 /* ---- LINKS ---- */
-
 a {
+    color: #b00c22;
     text-decoration: none;
 }
-
 a:hover {
+    color: #000;
     text-decoration: none;
 }
-
 a img {
     border: none;
 }
 
 /* ---- HEADERS ---- */
-
 h1, h2, h3, h4, h5, h6 {
+    color: #000;
     font-weight: normal;
 }
-
 h1 {
     font-size: 30px;
 }
-
 h2 {
     font-size: 24px;
 }
-
 h3 {
     font-size: 18px;
 }
-
 h4 {
     font-size: 16px;
 }
-
 h5 {
     font-size: 14px;
 }
-
 h6 {
     font-size: 13px;
 }
@@ -168,7 +161,7 @@ h6 {
 }
 
 /* ---- BACKGROUND ---- */
-.background-overlay {
+#background-overlay {
     position: fixed;
     top: 0 ;
     left: 0;
@@ -233,7 +226,103 @@ h6 {
     margin: 0px;
 }
 
-/* ---- LEFT NAV ---- */
+/* ---- NAV BAR ---- */
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 226px;
+    height: 100%;
+    background: url('../img/content/bg_menu.png') top left repeat-y;
+}
+#hide {
+    position: absolute;
+    top: 0px;
+    right: -29px;
+    display: block!important;
+    cursor: pointer;
+    width: 112px;
+    height: 23px;
+}
+.hide { background: url('../img/content/hide.png') top left no-repeat; }
+.show { background: url('../img/content/show.png') top left no-repeat!important; }
+
+#logo {
+    width: 155px;
+    height: 135px;
+    margin: 30px 0 0 20px;
+}
+
+#menu {
+    font-family: "Eras Demi ITC", Verdana, Geneva, sans-serif;
+    font-size: 14px;
+    text-align: right;
+    margin: 50px 0 0 0;
+}
+#menu li {
+    height: 36px;
+    line-height: 36px;
+    width: 226px;
+}
+#menu li.active {
+    background: url('../img/content/bg_menu_active.png') top left no-repeat;
+}
+#menu li.active a {
+    text-transform: uppercase!important;
+    color: #b00c22!important;
+    margin-right: 25px!important;
+}
+#menu li a {
+    color: #000;
+    display: block;
+    margin-right: 45px;
+}
+#menu li a:hover {
+    color: #b00c22;
+}
+
+#networks {
+    position: absolute;
+    bottom: 65px;
+    right: 45px;
+    display: inline-block;
+}
+.network {
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    text-indent: -7000px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+#fb { background:url('../img/sprites/networks.png') no-repeat 0px 0px; }
+#fb:hover { background:url('../img/sprites/networks.png') no-repeat 0px -26px; }
+
+#tw { background:url('../img/sprites/networks.png') no-repeat -26px 0px; }
+#tw:hover { background:url('../img/sprites/networks.png') no-repeat -26px -26px; }
+
+#gp { background:url('../img/sprites/networks.png') no-repeat -52px 0px; }
+#gp:hover { background:url('../img/sprites/networks.png') no-repeat -52px -26px; }
+
+#li { background:url('../img/sprites/networks.png') no-repeat -78px 0px; }
+#li:hover { background:url('../img/sprites/networks.png') no-repeat -78px -26px; }
+
+#gh { background:url('../img/sprites/networks.png') no-repeat -104px 0px; }
+#gh:hover { background:url('../img/sprites/networks.png') no-repeat -104px -26px; }
+
+#copyright {
+    position: absolute;
+    bottom: 20px;
+    right: 45px;
+    font-size: 10px;
+    cursor: default;
+}
+#copyright p {
+    line-height: 1.4em;
+    text-align: right;
+}
 
 /* ---- CONTENT ---- */
 

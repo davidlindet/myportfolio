@@ -20,6 +20,30 @@
 </head>
  
 <body>
-    <div class="background-overlay"></div>
+    <div id="background-overlay"></div>
+    <div id="navbar">
+        <div class="hide" id="hide"></div>
+        <div id="logo">
+            <img src="img/content/logo.png">
+        </div>
+        <nav>
+            <ul id="menu">
+                <li class="active"><a href="#">Accueil</a></li>
+                <li><a href="#">Projets</a></li>
+                <li><a href="#">Cv</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="networks">
+            <a target="_blank" title="Facebook" href="http://www.facebook.com/Tanuki076" id="fb" class="network">Facebook</a>
+            <a target="_blank" title="Twitter" href="https://twitter.com/DLindet" id="tw" class="network">Twitter</a>
+            <a target="_blank" title="Google Plus" href="https://plus.google.com/104531589734662097658" id="gp" class="network">Google Plus</a>
+            <a target="_blank" title="LinkedIn" href="http://www.linkedin.com/in/davidlindet" id="li" class="network">LinkedIn</a>
+            <a target="_blank" title="GitHub" href="https://github.com/davidlindet" id="gh" class="network">GitHub</a>
+        </div>
+        <div id="copyright">
+            <p><strong>Copyright ©2014</strong><br>Based on a tutorial of <a href="http://fr.tuto.com/formateur/spykrew07-tutos.htm">Spykrew07</a></p>
+        </div>
+    </div>
 </body>
 </html>

@@ -5,6 +5,7 @@ var portfolio = (function() {
      */
     function init(){
         initBackground();
+        initNavBar();
     }
 
     /**
@@ -19,6 +20,28 @@ var portfolio = (function() {
                     {image:'img/background/bg2.jpg'},
                     {image:'img/background/bg3.jpg'}
                 ]
+        });
+    }
+
+    /**
+     * Init NavBar
+     */
+    function initNavBar(){
+        var isDisplay = true;
+
+        $('#hide').click(function() {
+            if(isDisplay){
+                $('#navbar').animate({left:'-230'});
+                $('#hide').animate({right:'-70'});
+                $('#hide').addClass('show');
+                isDisplay = false;
+            }
+            else {
+                $('#navbar').animate({left:'0'});
+                $('#hide').animate({right:'-29'});
+                $('#hide').removeClass('show');
+                isDisplay = true;
+            }
         });
     }
 
