@@ -15,6 +15,7 @@
 	
     <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <script src="scripts/lib/jquery.min.js"></script>
+    <script src="scripts/lib/caroufredsel.js"></script>
     <script src="scripts/lib/pagescroller.js"></script>
     <script src="scripts/lib/supersized.js"></script>
     <script src="scripts/portfolio.js"></script>

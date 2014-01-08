@@ -33,7 +33,7 @@
                         <img src="img/projects/image2.jpg">
                     </li>
                     <li>
-                        <img src="img/projects/image3.jpg">
+                        <img src="img/projects/shopcade.jpg">
                     </li>
                 </ul>
             </div>
@@ -74,7 +74,7 @@
                         <img src="img/projects/image2.jpg">
                     </li>
                     <li>
-                        <img src="img/projects/image3.jpg">
+                        <img src="img/projects/shopcade.jpg">
                     </li>
                 </ul>
             </div>

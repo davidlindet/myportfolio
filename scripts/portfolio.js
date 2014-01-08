@@ -6,6 +6,7 @@ var portfolio = (function() {
     function init(){
         initBackground();
         initNavBar();
+        initCarrouselProjects();
     }
 
     /**
@@ -65,6 +66,26 @@ var portfolio = (function() {
 
         // scroll when click on section in navbar
         $('body').pageScroller({ navigation: '#menu' });
+    }
+
+    /**
+     * Init Carrousel Projects
+     */
+    function initCarrouselProjects(){
+        $('#content_projects').carouFredSel({
+            responsive: true,
+            width: '100%',
+            scroll: { items:3, duration:2000, pauseOnHover:true },
+            items: {
+                width: 200,
+                visible: {
+                    min: 1,
+                    max: 3
+                }
+            },
+            next:'#next',
+            prev:'#prev'
+        });
     }
 
     return {
