@@ -33,8 +33,8 @@
         </div>
         <nav>
             <ul id="menu">
-                <li class="active"><a href="#home">Accueil</a></li>
-                <li><a href="#projects">Projets</a></li>
+                <li class="active"><a href="#home"><?php echo (LANG == "FR") ? "Accueil" : "Home" ?></a></li>
+                <li><a href="#projects"><?php echo (LANG == "FR") ? "Projets" : "Projects" ?></a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
