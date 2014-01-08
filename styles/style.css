@@ -14,7 +14,7 @@ html {
 body {
     margin: 0px;
     padding: 0px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
     color: #000;
     line-height: 1.231;
     font-size: 12px;
@@ -92,7 +92,7 @@ input[type="checkbox"], input[type="radio"] {
 }
 
 label, input, select, textarea {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
     font-size: 12px;
     font-weight: normal;
     line-height: normal;
@@ -240,7 +240,7 @@ h6 {
     position: absolute;
     top: 0px;
     right: -29px;
-    display: block!important;
+    display: none;
     cursor: pointer;
     width: 112px;
     height: 23px;
@@ -325,7 +325,27 @@ h6 {
 }
 
 /* ---- CONTENT ---- */
-
+.content {
+    position: relative;
+    margin: 0px 140px 160px 365px;
+    height: 100%;
+    min-width: 700px;
+    padding-top: 150px;
+}
+.content h1 {
+    font-family: "Eras Demi ITC", Verdana, Geneva, sans-serif;
+    margin: 0 0 60px 0;
+    padding: 0;
+    display: block;
+    color: #b00c22;
+    font-size: 42px;
+}
+.content h1 span {
+    font-family: Verdana, Geneva, sans-serif;
+    text-transform: uppercase!important;
+    font-size: 18px;
+    color: #ffffff;
+}
 
 
 

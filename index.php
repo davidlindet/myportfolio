@@ -15,12 +15,17 @@
 	
     <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <script src="scripts/lib/jquery.min.js"></script>
+    <script src="scripts/lib/pagescroller.js"></script>
     <script src="scripts/lib/supersized.js"></script>
     <script src="scripts/portfolio.js"></script>
 </head>
  
 <body>
+    <?php const LANG = "FR"; ?>
+
     <div id="background-overlay"></div>
+
+    <!-- ASIDE BAR -->
     <aside id="sidebar">
         <div class="hide" id="hide"></div>
         <div id="logo">
@@ -28,10 +33,9 @@
         </div>
         <nav>
             <ul id="menu">
-                <li class="active"><a href="#">Accueil</a></li>
-                <li><a href="#">Projets</a></li>
-                <li><a href="#">Cv</a></li>
-                <li><a href="#">Contact</a></li>
+                <li class="active"><a href="#home">Accueil</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
         <div id="networks">
@@ -45,5 +49,15 @@
             <p><strong>Copyright ©2014</strong><br>Based on a tutorial of <a href="http://fr.tuto.com/formateur/spykrew07-tutos.htm">Spykrew07</a></p>
         </div>
     </aside>
+
+    <!-- CONTENT SECTIONS -->
+    <?php
+        //home
+        include('sections/home/index.php');
+        //projects
+        include('sections/projects/index.php');
+        //contact
+        include('sections/contact/index.php');
+    ?>
 </body>
 </html>

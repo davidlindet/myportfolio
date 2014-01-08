@@ -27,22 +27,44 @@ var portfolio = (function() {
      * Init NavBar
      */
     function initNavBar(){
-        var isDisplay = true;
 
+        //Hide / show hide button
+        var positionProjectsSection = $('#projects').position().top;
+        $(window).scroll(function () {
+            if ($(this).scrollTop() >= positionProjectsSection) {
+                $('#hide').fadeIn();
+            } else {
+                $('#hide').fadeOut();
+            }
+        });
+
+        //Hide / show navbar
+        var isNavBar = true;
         $('#hide').click(function() {
-            if(isDisplay){
+            if(isNavBar){
                 $('#sidebar').animate({left:'-230'});
                 $('#hide').animate({right:'-70'});
                 $('#hide').addClass('show');
-                isDisplay = false;
+                $('.content').animate({'margin-left':'160'});
+                isNavBar = false;
             }
             else {
                 $('#sidebar').animate({left:'0'});
                 $('#hide').animate({right:'-29'});
                 $('#hide').removeClass('show');
-                isDisplay = true;
+                $('.content').animate({'margin-left':'365'});
+                isNavBar = true;
             }
         });
+
+        // update active section in navbar
+        $('#menu li a').click(function() {
+            $('#menu li').removeClass('active');
+            $(this).parent().addClass('active');
+        });
+
+        // scroll when click on section in navbar
+        $('body').pageScroller({ navigation: '#menu' });
     }
 
     return {
