@@ -13,13 +13,11 @@
     <?php
         //projects
         include('sections/projects/shopcade.php');
+        include('sections/projects/bowsmanager.php');
+        include('sections/projects/alchemyquest.php');
         include('sections/projects/shopcade.php');
-        include('sections/projects/shopcade.php');
-        include('sections/projects/shopcade.php');
-        include('sections/projects/shopcade.php');
-        include('sections/projects/shopcade.php');
-        include('sections/projects/shopcade.php');
-        include('sections/projects/shopcade.php');
+        include('sections/projects/bowsmanager.php');
+        include('sections/projects/alchemyquest.php');
     ?>
     </div>
 

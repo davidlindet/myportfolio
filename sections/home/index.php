@@ -30,10 +30,16 @@
                 <h2><span>mes derniers</span> projets</h2>
                 <ul>
                     <li>
-                        <img src="img/projects/image2.jpg">
+                        <div>
+                            <img src="img/projects/bowsmanager.jpg">
+                            <span class="more">More</span>
+                        </div>
                     </li>
                     <li>
-                        <img src="img/projects/shopcade.jpg">
+                        <div>
+                            <img src="img/projects/shopcade.jpg">
+                            <span class="more">More</span>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -71,10 +77,12 @@
                 <h2><span>my latest</span> projects</h2>
                 <ul>
                     <li>
-                        <img src="img/projects/image2.jpg">
+                        <img src="img/projects/bowsmanager.jpg">
+                        <span class="more">More</span>
                     </li>
                     <li>
                         <img src="img/projects/shopcade.jpg">
+                        <span class="more">More</span>
                     </li>
                 </ul>
             </div>

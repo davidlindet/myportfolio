@@ -1,5 +1,9 @@
 var portfolio = (function() {
 
+    var isNavBarDisplayed = true;
+    var pageSlideOpen = false;
+    var $activeProject = null;
+
     /**
      * Initialize what is necessary for the good working of the website
      */
@@ -7,6 +11,7 @@ var portfolio = (function() {
         initBackground();
         initNavBar();
         initCarrouselProjects();
+        initDetailsProject();
     }
 
     /**
@@ -29,32 +34,21 @@ var portfolio = (function() {
      */
     function initNavBar(){
 
-        //Hide / show hide button
-        var positionProjectsSection = $('#projects').position().top;
-        $(window).scroll(function () {
-            if ($(this).scrollTop() >= positionProjectsSection) {
-                $('#hide').fadeIn();
-            } else {
-                $('#hide').fadeOut();
-            }
-        });
-
         //Hide / show navbar
-        var isNavBar = true;
         $('#hide').click(function() {
-            if(isNavBar){
-                $('#sidebar').animate({left:'-230'});
-                $('#hide').animate({right:'-70'});
+            if(isNavBarDisplayed){ //Hide navbar
+                $('#sidebar').animate({left:'-230px'});
+                $('#hide').animate({right:'-70px'});
                 $('#hide').addClass('show');
-                $('.content').animate({'margin-left':'160'});
-                isNavBar = false;
+                $('.content').animate({'margin-left':'160px'});
+                isNavBarDisplayed = false;
             }
-            else {
+            else { // show navbar
                 $('#sidebar').animate({left:'0'});
-                $('#hide').animate({right:'-29'});
+                $('#hide').animate({right:'-29px'});
                 $('#hide').removeClass('show');
-                $('.content').animate({'margin-left':'365'});
-                isNavBar = true;
+                $('.content').animate({'margin-left':'365px'});
+                isNavBarDisplayed = true;
             }
         });
 
@@ -86,6 +80,56 @@ var portfolio = (function() {
             next:'#next',
             prev:'#prev'
         });
+    }
+
+    //init details about project
+    function initDetailsProject(){
+        $(".slideprojects").pageslide({ direction: "left", modal: true });
+
+        $(".slideprojects").click(function() {
+            $activeProject = $(this);
+            if(pageSlideOpen){ //close slide page
+                hideDetailsProject();
+            }
+            else{ //open slide
+                showDetailsProject();
+            }
+        });
+
+        $('.close_project').click(function() {
+            hideDetailsProject();
+        });
+    }
+
+    //Show details about project (open slide)
+    function showDetailsProject(){
+        $("html").css("overflow", "hidden");
+        $('#sidebar').animate({left: (isNavBarDisplayed) ? '-260px' : '-300px'});
+        $activeProject.parent().addClass('project_active');
+        $('.single_project:not(.project_active)').fadeOut();
+        $("#projects").css("margin-left","990px");
+        $("#content_projects").trigger("stop", true);
+        pageSlideOpen = true;
+    }
+
+    //Hide details about project (hide slide)
+    function hideDetailsProject(){
+        $.pageslide.close();
+        $(".project_active").css("left", "auto");
+        $('.single_project:not(.project_active)').fadeIn();
+        $('.single_project').removeClass('project_active');
+
+        if(isNavBarDisplayed){
+            $("#projects").css("margin-left","365px");
+            $('#sidebar').animate({left:'0'});
+        }
+        else {
+            $("#projects").css("margin-left","160px");
+            $('#sidebar').animate({left:'-230px'});
+        }
+        $("html").css("overflow", "auto");
+        $("#content_projects").trigger("play", true);
+        pageSlideOpen = false;
     }
 
     return {

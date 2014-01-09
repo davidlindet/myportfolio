@@ -161,7 +161,7 @@ h6 {
 }
 
 /* ---- BACKGROUND ---- */
-#background-overlay {
+#background_overlay {
     position: fixed;
     top: 0 ;
     left: 0;
@@ -240,7 +240,6 @@ h6 {
     position: absolute;
     top: 0px;
     right: -29px;
-    display: none;
     cursor: pointer;
     width: 112px;
     height: 23px;
@@ -382,7 +381,7 @@ h6 {
     text-align: right;
 }
 #latest_projects {
-    padding-left: 50%;
+    padding-left: 60%;
 }
 #latest_projects h2 {
     font-family: "Eras Demi ITC", Verdana, Geneva, sans-serif;
@@ -402,10 +401,15 @@ h6 {
 #latest_projects ul {
     list-style: none;
 }
+#latest_projects li div{
+    position: relative;
+    display: block;
+    width: 250px;
+    margin: 15px auto 15px;
+    cursor: pointer;
+}
 #latest_projects img {
     width: 250px;
-    display: block;
-    margin: 15px auto 15px;
 }
 
 /* ---- PROJECTS ---- */
@@ -419,7 +423,7 @@ h6 {
     display: inline-block;
     padding: 3px 7px 7px 7px;
     font-size: 11px;
-    color:#fff;
+    color: #fff;
     position: absolute;
     top: 180px;
     cursor: pointer;
@@ -432,10 +436,10 @@ h6 {
     background-color: #b00c22;
 }
 #next {
-    right:33px;
+    right: 33px;
 }
 #prev {
-    right:59px;
+    right: 59px;
 }
 /* - SINGLE PROJECT - */
 .single_project {
@@ -455,14 +459,16 @@ h6 {
 .single_project > img {
     width: 100%;
 }
-.single_project:hover {
+.single_project:hover,
+.project_active {
     background-color: #000;
     cursor: pointer;
 }
 .project_active {
     border-top: 1px solid #b00c22;
 }
-.single_project:hover h2 {
+.single_project:hover h2,
+.project_active h2 {
     color: #fff;
 }
 .single_project .description {
@@ -481,7 +487,7 @@ h6 {
     color: #5e5e5e;
     padding-top: 10px!important;
 }
-.single_project .more {
+.more {
     display: block;
     position: absolute;
     bottom: 0;
@@ -491,9 +497,27 @@ h6 {
     background: url('../img/sprites/more.png') top left no-repeat;
     text-indent: -7000px;
 }
-.single_project:hover .more {
+.single_project:hover .more,
+#latest_projects li div:hover .more,
+.project_active .more{
     background: url('../img/sprites/more.png') -31px 0px no-repeat;
 }
-
-
+.modal {
+    display: none;
+}
+.slideprojects {
+    display: inline-block;
+}
+.close_project {
+    background-color: #b00c22;
+    color: #fff;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 20px;
+    padding: 5px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
 

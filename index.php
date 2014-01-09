@@ -10,21 +10,16 @@
     <meta name="description" content="This is my portfolio. Here you can discover projects I worked on. Contact me if you have questions." />
  
     <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/pageslide.css" />
     <link rel="stylesheet" href="styles/supersized.css" />
+
 	<link rel="icon" type="image/png" href="img/favicon.png" />
-	
-    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-    <script src="scripts/lib/jquery.min.js"></script>
-    <script src="scripts/lib/caroufredsel.js"></script>
-    <script src="scripts/lib/pagescroller.js"></script>
-    <script src="scripts/lib/supersized.js"></script>
-    <script src="scripts/portfolio.js"></script>
 </head>
  
 <body>
     <?php const LANG = "FR"; ?>
 
-    <div id="background-overlay"></div>
+    <div id="background_overlay"></div>
 
     <!-- ASIDE BAR -->
     <aside id="sidebar">
@@ -60,5 +55,13 @@
         //contact
         include('sections/contact/index.php');
     ?>
+
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <script src="scripts/lib/jquery.min.js"></script>
+    <script src="scripts/lib/pagescroller.js"></script>
+    <script src="scripts/lib/caroufredsel.js"></script>
+    <script src="scripts/lib/pageslide.js"></script>
+    <script src="scripts/lib/supersized.js"></script>
+    <script src="scripts/portfolio.js"></script>
 </body>
 </html>
