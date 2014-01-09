@@ -13,6 +13,7 @@ var portfolio = (function() {
         initCarrouselProjects();
         initDetailsProject();
         initZoomBox();
+        initContactForm();
     }
 
     /**
@@ -139,6 +140,48 @@ var portfolio = (function() {
     function initZoomBox() {
         $('a.zoombox').zoombox({
             gallery : true
+        });
+    }
+
+    /**
+     * Init Contact Form
+     */
+    function initContactForm() {
+        $("#submit").click(function() {
+
+            var data = $("form").serializeObject();
+
+            $('#name, #subject, #email, #message').focus(function() {
+                $(this).removeClass('error');
+            });
+            $('#error_captcha').fadeOut().html('');
+
+            if (data.name == '') { $('#name').addClass('error'); }
+            if (data.subject == '') { $('#subject').addClass('error');}
+            if (data.email == '') { $('#email').addClass('error');}
+            if (data.message == '') { $('#message').addClass('error');}
+            if (data.recaptcha_response_field == '') { $('#recaptcha_response_field').addClass('error');}
+
+            if ( data.name != '' && data.subject != '' && data.email != '' && data.message != '' && data.recaptcha_response_field != ''){
+                $.ajax({
+                    type: "POST",
+                    url: "sections/contact/sendMail.php",
+                    data: data,
+                    beforeSend:function() {
+                        $('#loading').fadeIn();
+                    },
+                    success: function(responseText){
+                        $('#loading').fadeOut();
+                        var response = $.parseJSON(responseText);
+                        if(response.success){
+                            $('#form').empty().append('<div id="success">'+response.message+'</div>').hide().slideDown();
+                        } else {
+                            $('#error_captcha').html('<div>'+response.error+'</div>').fadeIn();
+                        }
+                    }
+                });
+            }
+            return false;
         });
     }
 

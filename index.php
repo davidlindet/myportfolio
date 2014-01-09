@@ -59,6 +59,7 @@
 
     <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <script type="text/javascript" src="scripts/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/lib/jquery.serializeObject.js"></script>
     <script type="text/javascript"  src="scripts/lib/pagescroller.js"></script>
     <script type="text/javascript" src="scripts/lib/caroufredsel.js"></script>
     <script type="text/javascript" src="scripts/lib/pageslide.js"></script>

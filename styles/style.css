@@ -524,7 +524,7 @@ h6 {
 /* ---- FORMS ---- */
 #form {
     position: relative;
-    width: 40%!important;
+    width: 45%!important;
     padding: 20px;
     background: rgba(0,0,0,0.8);
     color: #fff;
@@ -583,9 +583,45 @@ textarea:focus {
 .error::-webkit-input-placeholder {
     color:#fff!important;
 }
+#error_captcha {
+    width: 80%;
+    margin: 5px auto 5px;
+    padding: 5px;
+    bottom: -26px;
+    border: none;
+    background-color: #b00c22;
+    color: #fff;
+    text-transform: uppercase;
+    display: none;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
 #loading {
     position: absolute;
     bottom: 40px;
     right: 40px;
     display: none;
+}
+#recaptcha_table {
+    position: relative;
+    width: 240px!important;
+    background: #999;
+}
+.recaptchatable .recaptcha_image_cell{
+    background: #999!important;
+}
+#recaptcha_image  {
+    width: 240px!important;
+}
+#recaptcha_image > img {
+    width: 240px!important;
+}
+#recaptcha_logo {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.recaptcha_input_area input {
+    width: 200px!important;
 }
