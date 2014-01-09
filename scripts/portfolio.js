@@ -12,6 +12,7 @@ var portfolio = (function() {
         initNavBar();
         initCarrouselProjects();
         initDetailsProject();
+        initZoomBox();
     }
 
     /**
@@ -130,6 +131,15 @@ var portfolio = (function() {
         $("html").css("overflow", "auto");
         $("#content_projects").trigger("play", true);
         pageSlideOpen = false;
+    }
+
+    /**
+     * Init Zoom Box
+     */
+    function initZoomBox() {
+        $('a.zoombox').zoombox({
+            gallery : true
+        });
     }
 
     return {

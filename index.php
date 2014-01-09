@@ -12,8 +12,9 @@
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/pageslide.css" />
     <link rel="stylesheet" href="styles/supersized.css" />
+    <link rel="stylesheet" href="styles/zoombox.css" type="text/css" media="screen" />
 
-	<link rel="icon" type="image/png" href="img/favicon.png" />
+    <link rel="icon" type="image/png" href="img/favicon.png" />
 </head>
  
 <body>
@@ -57,11 +58,12 @@
     ?>
 
     <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-    <script src="scripts/lib/jquery.min.js"></script>
-    <script src="scripts/lib/pagescroller.js"></script>
-    <script src="scripts/lib/caroufredsel.js"></script>
-    <script src="scripts/lib/pageslide.js"></script>
-    <script src="scripts/lib/supersized.js"></script>
-    <script src="scripts/portfolio.js"></script>
+    <script type="text/javascript" src="scripts/lib/jquery.min.js"></script>
+    <script type="text/javascript"  src="scripts/lib/pagescroller.js"></script>
+    <script type="text/javascript" src="scripts/lib/caroufredsel.js"></script>
+    <script type="text/javascript" src="scripts/lib/pageslide.js"></script>
+    <script type="text/javascript" src="scripts/lib/supersized.js"></script>
+    <script type="text/javascript" src="scripts/lib/zoombox.js"></script>
+    <script type="text/javascript" src="scripts/portfolio.js"></script>
 </body>
 </html>
