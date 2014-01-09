@@ -455,14 +455,15 @@ h6 {
     -moz-transition: 0.3s;
     vertical-align: top;
 }
-.single_project:nth-child(3n+3) {margin:0 40px 40px 0;}
+.single_project:nth-child(3n+3) {
+    margin :0 40px 40px 0;
+}
 .single_project > img {
     width: 100%;
 }
 .single_project:hover,
 .project_active {
     background-color: #000;
-    cursor: pointer;
 }
 .project_active {
     border-top: 1px solid #b00c22;

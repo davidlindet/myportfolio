@@ -107,7 +107,7 @@ var portfolio = (function() {
         $('#sidebar').animate({left: (isNavBarDisplayed) ? '-260px' : '-300px'});
         $activeProject.parent().addClass('project_active');
         $('.single_project:not(.project_active)').fadeOut();
-        $("#projects").css("margin-left","990px");
+        $("#projects").css("margin-left","40%");
         $("#content_projects").trigger("stop", true);
         pageSlideOpen = true;
     }
