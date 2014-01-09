@@ -220,4 +220,4 @@ pip-log.txt
 #PHOTOSHOP
 *.psd
 
-/sections/contact/privateKey.php
+sections/contact/privateKey.php
