@@ -10,12 +10,12 @@
 
     <meta name="description" content="Welcome on my portfolio. Here you can discover projects I worked on. Contact me if you have questions." />
 
-    <meta property="fb:app_id" content="146872648703868">
+    <meta property="fb:app_id" content="232095863497084">
     <meta property="og:site_name" content="David Lindet - Portfolio">
     <meta property="og:title" content="David Lindet - Portfolio">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://www.david-lindet.fr/">
-    <meta property="og:image" content="https://www.david-lindet.fr/img/facebook.jpg">
+    <meta property="og:url" content="http://david-lindet.fr/">
+    <meta property="og:image" content="http://david-lindet.fr/img/logo.jpg">
     <meta property="og:description" content="Welcome on my portfolio. Here you can discover projects I worked on. Contact me if you have questions.">
 
     <link rel="stylesheet" href="styles/style.css" />
