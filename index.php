@@ -18,6 +18,7 @@
     <meta property="og:image" content="http://david-lindet.fr/img/logo.jpg">
     <meta property="og:description" content="Welcome on my portfolio. Here you can discover projects I worked on. Contact me if you have questions.">
 
+    <link rel="stylesheet" href="styles/fontfaces.css" />
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/pageslide.css" />
     <link rel="stylesheet" href="styles/supersized.css" />

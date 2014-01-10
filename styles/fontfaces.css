@@ -1,0 +1,7 @@
+@font-face {
+    font-family: "Eras Demi ITC";
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/ERASDEMI.woff") format("woff"),
+    url("../fonts/ERASDEMI.ttf") format("truetype");
+}
