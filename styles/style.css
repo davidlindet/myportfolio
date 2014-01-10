@@ -401,7 +401,7 @@ h6 {
 #latest_projects ul {
     list-style: none;
 }
-#latest_projects li div{
+#latest_projects li .latest_project{
     position: relative;
     display: block;
     width: 250px;
@@ -499,7 +499,7 @@ h6 {
     text-indent: -7000px;
 }
 .single_project:hover .more,
-#latest_projects li div:hover .more,
+#latest_projects li .latest_project:hover .more,
 .project_active .more{
     background: url('../img/sprites/more.png') -31px 0px no-repeat;
 }

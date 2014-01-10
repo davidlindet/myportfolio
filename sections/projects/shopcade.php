@@ -1,7 +1,7 @@
 <!-- SHOPCADE -->
-<section class="single_project">
+<section class="single_project" >
     <img src="img/projects/shopcade.jpg">
-    <a href="#modal-shopcade" class="slideprojects">
+    <a href="#modal-shopcade" class="slideprojects" id="preview_shopcade" >
         <section class="description">
             <h2>Shopcade</h2>
             <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nunc sapien nec dolor neque...</p>

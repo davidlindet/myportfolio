@@ -1,7 +1,7 @@
 <!-- BOWSMANAGER -->
 <section class="single_project">
     <img src="img/projects/bowsmanager.jpg">
-    <a href="#modal-bowsmanager" class="slideprojects" >
+    <a href="#modal-bowsmanager" class="slideprojects" id="preview_bowsmanager" >
         <section class="description">
             <h2>Bows Manager</h2>
             <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nunc sapien nec dolor neque...</p>

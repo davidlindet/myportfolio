@@ -15,7 +15,7 @@
     <meta property="og:title" content="David Lindet - Portfolio">
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://www.david-lindet.fr/">
-    <meta property="og:image" content="https://www.david-lindet.fr/img/logo_app.jpg">
+    <meta property="og:image" content="https://www.david-lindet.fr/img/facebook.jpg">
     <meta property="og:description" content="Welcome on my portfolio. Here you can discover projects I worked on. Contact me if you have questions.">
 
     <link rel="stylesheet" href="styles/style.css" />

@@ -10,6 +10,7 @@ var portfolio = (function() {
     function init(){
         initBackground();
         initNavBar();
+        initLatestProjects();
         initCarrouselProjects();
         initDetailsProject();
         initZoomBox();
@@ -62,6 +63,17 @@ var portfolio = (function() {
 
         // scroll when click on section in navbar
         $('body').pageScroller({ navigation: '#menu' });
+    }
+
+    /**
+     * Init lastest projects
+     */
+    function initLatestProjects(){
+        $('.latest_project').click(function(){
+            var project = $(this).data('project');
+            $activeProject = $(project);
+            $activeProject.trigger( "click" );
+        });
     }
 
     /**
