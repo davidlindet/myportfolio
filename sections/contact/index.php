@@ -17,7 +17,7 @@
             <p><input type="text" placeholder="Sujet" id="subject" name="subject"></p>
             <p class="relative">
                 <textarea id="message" placeholder="Message" name="message"></textarea>
-            <div id="loading"><img src="img/loading.gif"></div>
+                <img id="loading" src="img/small-loading.gif">
             </p>
             <?php
                 require_once('sections/contact/recaptchalib.php');

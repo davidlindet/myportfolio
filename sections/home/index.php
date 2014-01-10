@@ -28,20 +28,9 @@
             </div>
             <div id="latest_projects">
                 <h2><span>mes derniers</span> projets</h2>
-                <ul>
-                    <li>
-                        <div>
-                            <img src="img/projects/bowsmanager.jpg">
-                            <span class="more">More</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div>
-                            <img src="img/projects/shopcade.jpg">
-                            <span class="more">More</span>
-                        </div>
-                    </li>
-                </ul>
+                <?php
+                    require('sections/home/latestProjects.php');
+                ?>
             </div>
             <div class="clear"></div>
         </div>
@@ -75,16 +64,9 @@
             </div>
             <div id="latest_projects">
                 <h2><span>my latest</span> projects</h2>
-                <ul>
-                    <li>
-                        <img src="img/projects/bowsmanager.jpg">
-                        <span class="more">More</span>
-                    </li>
-                    <li>
-                        <img src="img/projects/shopcade.jpg">
-                        <span class="more">More</span>
-                    </li>
-                </ul>
+                <?php
+                    require('sections/home/latestProjects.php');
+                ?>
             </div>
             <div class="clear"></div>
         </div>
