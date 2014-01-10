@@ -1,0 +1,55 @@
+<!DOCTYPE html> 
+<html lang="fr"> 
+ 
+<head> 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta name="keywords" content="David Lindet, David, Lindet, portfolio, developer, web developer, CSS, HTML, jQuery, AJAX, PHP, HTML 5, CSS 3, Javascript, mobile, android">
+    <title>David Lindet - Développeur</title>
+
+    <meta name="description" content="Welcome on my portfolio. Here you can discover projects I worked on. Contact me if you have questions." />
+
+    <meta property="fb:app_id" content="232095863497084">
+    <meta property="og:site_name" content="David Lindet - Portfolio">
+    <meta property="og:title" content="David Lindet - Portfolio">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://david-lindet.fr/">
+    <meta property="og:image" content="http://david-lindet.fr/img/logo.jpg">
+    <meta property="og:description" content="Welcome on my portfolio. Here you can discover projects I worked on. Contact me if you have questions.">
+
+    <link rel="stylesheet" href="styles/fontfaces.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/supersized.css" />
+
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+</head>
+ 
+<body>
+
+    <div id="background_overlay"></div>
+
+    <section id="eror" class="content section">
+        <h1>error <span>404</span></h1>
+
+        <p>This page doesn't exists! Click <a href="http://david-lindet.fr/">here</a> to return on the home page.</p>
+
+    </section>
+
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <script type="text/javascript" src="scripts/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/lib/supersized.js"></script>
+    <script type="text/javascript" >
+        $.supersized({
+            transition_speed:5000,
+            slides:
+                    [
+                        {image:'img/background/bg.jpg'},
+                        {image:'img/background/bg2.jpg'},
+                        {image:'img/background/bg3.jpg'}
+                    ]
+        });
+    </script>
+
+</body>
+</html>
