@@ -72,7 +72,9 @@ var portfolio = (function() {
         $('.latest_project').click(function(){
             var project = $(this).data('project');
             $activeProject = $(project);
-            $activeProject.trigger( "click" );
+            setTimeout(function(){
+                $activeProject.trigger( "click" );
+            },200);
         });
     }
 

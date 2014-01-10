@@ -643,12 +643,12 @@ textarea:focus {
 }
 #share_icon {
     display: inline-block;
-    width: 30px;
+    width: 50px;
     height: 30px;
     background:url('../img/content/share_icon.png') top left no-repeat;
     position: absolute;
     top: 0px;
-    left: -35px;
+    left: -50px;
 }
 #___plusone_0 {
     width: 65px!important;
