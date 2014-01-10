@@ -3,7 +3,7 @@
     <div class="btn_slider" id="prev">&larr;</div>
     <div class="btn_slider" id="next">&rarr;</div>
 
-    <?php if(LANG == "FR") { ?>
+    <?php if($LANG == "FR") { ?>
         <h1>projets <span>web - mobile - graphique</span></h1>
     <?php } else { ?>
         <h1>projects <span>web - mobile - graphics</span></h1>

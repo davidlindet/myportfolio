@@ -248,7 +248,7 @@ h6 {
 #logo {
     width: 155px;
     height: 135px;
-    margin: 30px 0 0 20px;
+    margin: 20px 0 0 20px;
 }
 
 #menu {
@@ -450,10 +450,11 @@ h6 {
     display: inline-block;
     margin: 0 40px 40px 0;
     border-top: 1px solid #2088c9;
-    transition: 0.1s;
+    transition: 0.3s;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
     vertical-align: top;
+    pointer-events: none;
 }
 .single_project:nth-child(3n+3) {
     margin :0 40px 40px 0;
@@ -474,6 +475,7 @@ h6 {
 }
 .single_project .description {
     padding: 20px;
+    pointer-events: all;
 }
 .single_project .description p,
 .single_project .description h2 {
@@ -636,7 +638,7 @@ textarea:focus {
     right: 0px;
     top: 0px;
     padding: 5px 0 5px 20px;
-    background-color: #fff;
+    background-color: #000000;
 }
 #share_bar div{
     margin-left: 5px!important;
@@ -656,4 +658,27 @@ textarea:focus {
 #twitter-widget-0 .label {
     text-indent: -7000px!important;
 }
+
+/* ---- LANG BAR ---- */
+#lang_bar {
+    height: 20px;
+    width: 75px;
+    line-height: 5px;
+    padding: 5px 15px 5px 0;
+    margin: auto;
+}
+#lang_bar a {
+   display: inline-block;
+   height: 15px;
+   width: 30px;
+   text-indent: -7000px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+#FR { background: url('../img/sprites/lang.png') no-repeat -30px -15px; }
+#FR:hover, #FR.active { background: url('../img/sprites/lang.png') no-repeat -30px 0; }
+
+#EN { background: url('../img/sprites/lang.png') no-repeat 0 -15px; }
+#EN:hover, #EN.active { background: url('../img/sprites/lang.png') no-repeat 0 0; }
 

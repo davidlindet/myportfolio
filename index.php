@@ -27,6 +27,13 @@
 </head>
  
 <body>
+    <?php
+        $LANG = "FR";
+        if(!empty($_GET['lang']) && $_GET['lang'] == "EN") {
+            $LANG = "EN";
+        }
+    ?>
+
     <!-- FACEBOOK SDK -->
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
@@ -36,8 +43,6 @@
             js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=232095863497084";
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script>
-
-    <?php const LANG = "FR"; ?>
 
     <div id="background_overlay"></div>
 
@@ -52,13 +57,18 @@
     <!-- ASIDE BAR -->
     <aside id="sidebar">
         <div class="hide" id="hide"></div>
+        <!-- LANG BAR -->
+        <div id="lang_bar">
+            <a href="?lang=FR" id="FR" <?php echo $LANG == "FR" ? "class='active'" : ''; ?> title="Français" >Français</a>
+            <a href="?lang=EN" id="EN" <?php echo $LANG == "EN" ? "class='active'" : ''; ?> title="English" >English</a>
+        </div>
         <div id="logo">
             <img src="img/content/logo.png">
         </div>
         <nav>
             <ul id="menu">
-                <li class="active"><a href="#home"><?php echo (LANG == "FR") ? "Accueil" : "Home" ?></a></li>
-                <li><a href="#projects"><?php echo (LANG == "FR") ? "Projets" : "Projects" ?></a></li>
+                <li class="active"><a href="#home"><?php echo ($LANG == "FR") ? "Accueil" : "Home" ?></a></li>
+                <li><a href="#projects"><?php echo ($LANG == "FR") ? "Projets" : "Projects" ?></a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>

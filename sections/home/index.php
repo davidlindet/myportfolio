@@ -1,6 +1,6 @@
 <!-- HOME -->
 <section id="home" class="content section">
-    <?php if(LANG == "FR") { ?>
+    <?php if($LANG == "FR") { ?>
         <h1>bienvenue <span>sur mon portfolio</span></h1>
         <div id="content_welcome">
             <div id="portrait">
