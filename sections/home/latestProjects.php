@@ -1,6 +1,6 @@
 <ul>
     <li>
-        <a class="latest_project" href="#projects" data-project="#preview_bowsmanager" >
+        <a class="latest_project" href="#projects" data-project="#preview_portfolio" >
             <img src="img/projects/bowsmanager.jpg">
             <span class="more">More</span>
         </a>

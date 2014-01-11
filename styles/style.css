@@ -511,6 +511,31 @@ h6 {
 .slideprojects {
     display: inline-block;
 }
+/* - DETAILS PROJECT - */
+.technologies {
+    list-style: none;
+    height: 30px;
+    margin-bottom: 15px;
+}
+.technologies li {
+    float: left;
+}
+.technologies .label {
+    width: 100px;
+    line-height: 3em;
+ }
+.technologies .techno {
+    text-indent: -7000px;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+}
+#html5 { background: url('../img/sprites/technologies.png') 0 0 no-repeat; }
+#css3 { background: url('../img/sprites/technologies.png') -30px 0 no-repeat; }
+#php { background: url('../img/sprites/technologies.png') -60px 0 no-repeat; }
+#android { background: url('../img/sprites/technologies.png') 0 -30px no-repeat; }
+
 .close_project {
     background-color: #b00c22;
     color: #fff;
