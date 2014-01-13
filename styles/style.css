@@ -520,10 +520,9 @@ h6 {
 .technologies li {
     float: left;
 }
-.technologies .label {
+.technologies label {
     width: 100px;
-    line-height: 3em;
- }
+}
 .technologies .techno {
     text-indent: -7000px;
     display: inline-block;
@@ -534,7 +533,30 @@ h6 {
 #html5 { background: url('../img/sprites/technologies.png') 0 0 no-repeat; }
 #css3 { background: url('../img/sprites/technologies.png') -30px 0 no-repeat; }
 #php { background: url('../img/sprites/technologies.png') -60px 0 no-repeat; }
+#zend{ background: url('../img/sprites/technologies.png') -90px 0 no-repeat; }
+#zend2{ background: url('../img/sprites/technologies.png') -120px 0 no-repeat; }
 #android { background: url('../img/sprites/technologies.png') 0 -30px no-repeat; }
+#java { background: url('../img/sprites/technologies.png') -30px -30px no-repeat; }
+#jquery { background: url('../img/sprites/technologies.png') -60px -30px no-repeat; }
+#extjs { background: url('../img/sprites/technologies.png') -90px -30px no-repeat; }
+#fbapi { background: url('../img/sprites/technologies.png') -120px -30px no-repeat; }
+#photoshop { background: url('../img/sprites/technologies.png') 0 -60px no-repeat; }
+#premiere { background: url('../img/sprites/technologies.png') -30px -60px no-repeat; }
+#aftereffects { background: url('../img/sprites/technologies.png') -60px -60px no-repeat; }
+#blender { background: url('../img/sprites/technologies.png') -90px -60px no-repeat; }
+#wordpress { background: url('../img/sprites/technologies.png') -120px -60px no-repeat; }
+#mongo { background: url('../img/sprites/technologies.png') 0 -90px no-repeat; }
+#sphinx { background: url('../img/sprites/technologies.png') -30px -90px no-repeat; }
+#bootstrap { background: url('../img/sprites/technologies.png') -60px -90px no-repeat; }
+#mysql { background: url('../img/sprites/technologies.png') -90px -90px no-repeat; }
+#apache { background: url('../img/sprites/technologies.png') -1200px -90px no-repeat; }
+
+.preview:hover {
+    opacity: 0.5;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
 
 .close_project {
     background-color: #b00c22;

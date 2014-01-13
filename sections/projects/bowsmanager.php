@@ -4,13 +4,66 @@
     <a href="#modal-bowsmanager" class="slideprojects" id="preview_bowsmanager" >
         <section class="description">
             <h2>Bows Manager</h2>
-            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nunc sapien nec dolor neque...</p>
+            <?php if($LANG == "FR"){ ?>
+            <p class="text">Bows Manager est une application web permettant la gestion d'opérations sur des archets...</p>
+            <?php } else { ?>
+            <p class="text">Bows Manager is a Web Application allowing to manage operations made on bows...</p>
+            <?php } ?>
         </section>
         <span class="more">More</span>
     </a>
     <div id="modal-bowsmanager" style="display: none;">
-        <h3 class="title_pageslide">Le nouveau casque de l'agence</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec dolor neque, quis volutpat augue. Proin sapien purus, consectetur quis dictum vitae, posuere non dolor. Cras ut lectus a libero iaculis porta. Sed lacinia massa odio, in lacinia nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In turpis leo, porttitor at dignissim id, pulvinar nec purus. Nam ultrices, nunc ac viverra posuere, ante nisi volutpat metus, in vehicula tortor nisi ac massa. Nam scelerisque urna et sapien hendrerit quis fringilla lectus gravida. Vestibulum id dignissim sapien. Vestibulum pharetra condimentum dui in vestibulum. Quisque eu odio id ipsum elementum semper non sed diam.</p>
-        <span class="close_project">Fermer</span>
+        <h3 class="title_pageslide">Bows Manager</h3>
+        <ul class="technologies" >
+            <li><label>Technologies:</label></li>
+            <li><a target="_blank" class="techno" id="html5" title="HTML 5" href="http://www.w3.org/TR/html51/" >HTML 5</a></li>
+            <li><a target="_blank" class="techno" id="css3" title="CSS 3" href="http://www.w3.org/TR/css3-selectors/" >CSS 3</a></li>
+            <li><a target="_blank" class="techno" id="php" title="Php" href="http://www.php.net/" >Php</a></li>
+            <li><a target="_blank" class="techno" id="zend2" title="Zend Framework 2" href="http://framework.zend.com/" >Zend Framework 2</a></li>
+            <li><a target="_blank" class="techno" id="mysql" title="MySQL" href="http://www.mysql.com/" >"MySQL</a></li>
+            <li><a target="_blank" class="techno" id="jquery" title="Jquery" href="http://jquery.com/" >Jquery</a></li>
+            <li><a target="_blank" class="techno" id="photoshop" title="Photoshop" href="http://www.photoshop.com/" >Photoshop</a></li>
+            <li><a target="_blank" class="techno" id="bootstrap" title="Bootstrap" href="http://getbootstrap.com/" >"Bootstrap</a></li>
+        </ul>
+        <?php if($LANG == "FR"){ ?>
+            <p>Bows Manager est une application web permettant la gestion d'opérations sur des archets.</p>
+
+            <p>Elle se compose de différents modules (Client, Collections, Archets, Factures, Fournisseurs) qui interagissent entre eux.</p>
+            <p>Ainsi l'utilisateur peut gérer une liste de clients. Chaque client envoie un lot se composant d'un ou plusieurs archets.
+                Lorsque toutes les opérations d'entretien et de maintenance ont été réalisées, le lot est renvoyé au client.
+                Les factures peuvent être indépendante ou alors attachées à un lot.
+            </p>
+            <p>
+                Le module <i>Fournisseurs</i> est indépendant des autres. Il permet de lister les produits par fournisseur (crin, vis, plaque de tête...) et réciproquement.
+                Cela permet un comparatif des prix plus rapide.
+            </p>
+            <p>
+                <label>Captures:</label>
+                <a class="zoombox preview zgallery2" title="Page d'accueil" href="img/projects/bowsmanager/home.jpg"><img width="100" src="img/projects/bowsmanager/home.jpg"></a>
+                <a class="zoombox preview zgallery2" title="Détails du Client" href="img/projects/bowsmanager/client_details.jpg"><img width="100" src="img/projects/bowsmanager/client_details.jpg"></a>
+                <a class="zoombox preview zgallery2" title="Lot d'archets" href="img/projects/bowsmanager/collection.jpg"><img width="100" src="img/projects/bowsmanager/collection.jpg"></a>
+                <a class="zoombox preview zgallery2" title="Détails de l'archet" href="img/projects/bowsmanager/bow.jpg"><img width="100" src="img/projects/bowsmanager/bow.jpg"></a>
+            </p>
+            <span class="close_project">Fermer</span>
+        <?php } else { ?>
+            <p>Bows Manager is a Web Application allowing to manage operations made on bows.</p>
+            <p>It's composed of mutiple modules (Client, Collections, Bows, Bills, Suppliers) interacting together.</p>
+            <p>Users can mangage clients list. Each client send a collection of one or several bows.
+                When all maintenance operations are done, the collection is sent back.
+                Bills can be independent or join to a collection.
+            </p>
+            <p>
+                The <i>Suppliers</i> module is independent of others. With it you can list products by suppliers (horsehair, screw, head plate...) and reciprocally.
+                Thus you can compare prices faster.
+            </p>
+            <p>
+                <label>Screen Captures:</label>
+                <a class="zoombox preview zgallery2" title="Home Page" href="img/projects/bowsmanager/home.jpg"><img width="100" src="img/projects/bowsmanager/home.jpg"></a>
+                <a class="zoombox preview zgallery2" title="Clients Details" href="img/projects/bowsmanager/client_details.jpg"><img width="100" src="img/projects/bowsmanager/client_details.jpg"></a>
+                <a class="zoombox preview zgallery2" title="Collection" href="img/projects/bowsmanager/collection.jpg"><img width="100" src="img/projects/bowsmanager/collection.jpg"></a>
+                <a class="zoombox preview zgallery2" title="Bow" href="img/projects/bowsmanager/bow.jpg"><img width="100" src="img/projects/bowsmanager/bow.jpg"></a>
+            </p>
+            <span class="close_project">Close</span>
+        <?php } ?>
     </div>
 </section>
