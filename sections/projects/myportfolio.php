@@ -4,15 +4,50 @@
     <a href="#modal-portfolio" class="slideprojects" id="preview_portfolio" >
         <section class="description">
             <h2>Portfolio</h2>
-            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis nunc sapien nec dolor neque...</p>
+            <?php if($LANG == "FR"){ ?>
+                <p class="text">En <?php $currentYear = date('Y', time()); echo $currentYear - 2006; ?> ans, j'ai découvers de nombreux langages et technologies.
+                    Ce site web réalisé en HTML5, présente quelques travaux sur lesquels j'ai travaillés....</p>
+            <?php } else { ?>
+                <p class="text">In <?php $currentYear = date('Y', time()); echo $currentYear - 2006; ?> years, I discover a lot of languages and technologies.
+                This website present some works I've done...</p>
+            <?php } ?>
         </section>
         <span class="more">More</span>
     </a>
     <div id="modal-portfolio" class="modal">
         <h3 class="title_pageslide">Portfolio</h3>
         <ul class="technologies" >
-            <li class="label" ><b>Technologies:</b></li>
+            <li><label>Technologies:</label></li>
             <li><a target="_blank" class="techno" id="html5" title="HTML 5" href="http://www.w3.org/TR/html51/" >HTML 5</a></li>
+            <li><a target="_blank" class="techno" id="css3" title="CSS 3" href="http://www.w3.org/TR/css3-selectors/" >CSS 3</a></li>
+            <li><a target="_blank" class="techno" id="php" title="Php" href="http://www.php.net/" >Php</a></li>
+            <li><a target="_blank" class="techno" id="jquery" title="Jquery" href="http://jquery.com/" >Jquery</a></li>
+            <li><a target="_blank" class="techno" id="photoshop" title="Photoshop" href="http://www.photoshop.com/" >Photoshop</a></li>
+       </ul>
+        <div class="clear"></div>
+        <?php if($LANG == "FR"){ ?>
+        <p>En <?php $currentYear = date('Y', time()); echo $currentYear - 2006; ?> ans, j'ai découvers de nombreux langages et technologies.
+           Ce site présente quelques un des travaux sur lesquels j'ai travaillés.</p>
+        <p>Depuis longtemps, j'apprécie le multimédia. Avec l'arrivée d'HTML 5 et de CSS 3, il est possible de développer des applications aussi riche qu'en Flash, sans avoir besoin d'utiliser un logiciel tiers.</p>
+        <p>C'est la raison pour laquelle, j'ai décidé d'utiliser ces technologies pour développer mon Portfolio.</p>
+        <p>Le code de mon Portfolio et certains autres projets se trouve sur ma page <a href="https://github.com/davidlindet" title="GitHub">GitHub</a>.</p>
+        <p>Si vous avez des questions à propos de ce portfolio ou d'un autre de mes projets, envoyez moi un message via la section contact.</p>
+        <span class="close_project">Fermer</span>
+        <?php } else { ?>
+        <p>In <?php $currentYear = date('Y', time()); echo $currentYear - 2006; ?> years, I discover a lot of languages and technologies.
+            This website present some works I've done.</p>
+        <p>I enjoy multimedia for a long time. With the advent of HTML 5 and CSS 3, it's possible to develop richer web applications without a third-party software like Flash.</p>
+        <p>It's the reason why I used these technologies to develop my Portfolio.</p>
+        <p>The code of this website is available on my <a href="https://github.com/davidlindet" title="GitHub">GitHub</a> page.</p>
+        <p>If you have questions about this portfolio or an other project, send me a message through the contact section.</p>
+        <span class="close_project">Close</span>
+        <?php } ?>
+    </div>
+</section>
+<?php
+ /*
+
+   <li><a target="_blank" class="techno" id="html5" title="HTML 5" href="http://www.w3.org/TR/html51/" >HTML 5</a></li>
             <li><a target="_blank" class="techno" id="css3" title="CSS 3" href="http://www.w3.org/TR/css3-selectors/" >CSS 3</a></li>
             <li><a target="_blank" class="techno" id="php" title="Php" href="http://www.php.net/" >Php</a></li>
             <li><a target="_blank" class="techno" id="zend" title="Zend Framework" href="http://framework.zend.com/" >Zend Framework</a></li>
@@ -35,9 +70,7 @@
             <li><a target="_blank" class="techno" id="bootstrap" title="Bootstrap" href="http://getbootstrap.com/" >"Bootstrap</a></li>
             <li><a target="_blank" class="techno" id="mysql" title="MySQL" href="http://www.mysql.com/" >"MySQL</a></li>
             <li><a target="_blank" class="techno" id="apache" title="Apache" href="http://www.apache.org/" >"apache</a></li>
-       </ul>
-        <div class="clear"></div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec dolor neque, quis volutpat augue. Proin sapien purus, consectetur quis dictum vitae, posuere non dolor. Cras ut lectus a libero iaculis porta. Sed lacinia massa odio, in lacinia nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In turpis leo, porttitor at dignissim id, pulvinar nec purus. Nam ultrices, nunc ac viverra posuere, ante nisi volutpat metus, in vehicula tortor nisi ac massa. Nam scelerisque urna et sapien hendrerit quis fringilla lectus gravida. Vestibulum id dignissim sapien. Vestibulum pharetra condimentum dui in vestibulum. Quisque eu odio id ipsum elementum semper non sed diam.</p>
-        <span class="close_project">Fermer</span>
-    </div>
-</section>
+
+
+
+  */
