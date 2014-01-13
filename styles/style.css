@@ -435,6 +435,10 @@ h6 {
 .btn_slider:hover {
     background-color: #b00c22;
 }
+.btn_slider.disabled {
+    background-color: #444444;
+    cursor: default;
+}
 #next {
     right: 33px;
 }
@@ -476,6 +480,7 @@ h6 {
 .single_project .description {
     padding: 20px;
     pointer-events: all;
+    min-height: 130px;
 }
 .single_project .description p,
 .single_project .description h2 {
@@ -510,6 +515,7 @@ h6 {
 }
 .slideprojects {
     display: inline-block;
+    min-height: 150px;
 }
 /* - DETAILS PROJECT - */
 .technologies {
@@ -549,7 +555,7 @@ h6 {
 #sphinx { background: url('../img/sprites/technologies.png') -30px -90px no-repeat; }
 #bootstrap { background: url('../img/sprites/technologies.png') -60px -90px no-repeat; }
 #mysql { background: url('../img/sprites/technologies.png') -90px -90px no-repeat; }
-#apache { background: url('../img/sprites/technologies.png') -1200px -90px no-repeat; }
+#apache { background: url('../img/sprites/technologies.png') -120px -90px no-repeat; }
 
 .preview:hover {
     opacity: 0.5;

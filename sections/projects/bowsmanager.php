@@ -18,12 +18,13 @@
             <li><label>Technologies:</label></li>
             <li><a target="_blank" class="techno" id="html5" title="HTML 5" href="http://www.w3.org/TR/html51/" >HTML 5</a></li>
             <li><a target="_blank" class="techno" id="css3" title="CSS 3" href="http://www.w3.org/TR/css3-selectors/" >CSS 3</a></li>
+            <li><a target="_blank" class="techno" id="bootstrap" title="Bootstrap" href="http://getbootstrap.com/" >"Bootstrap</a></li>
+            <li><a target="_blank" class="techno" id="jquery" title="Jquery" href="http://jquery.com/" >Jquery</a></li>
             <li><a target="_blank" class="techno" id="php" title="Php" href="http://www.php.net/" >Php</a></li>
             <li><a target="_blank" class="techno" id="zend2" title="Zend Framework 2" href="http://framework.zend.com/" >Zend Framework 2</a></li>
+            <li><a target="_blank" class="techno" id="apache" title="Apache" href="http://www.apache.org/" >"apache</a></li>
             <li><a target="_blank" class="techno" id="mysql" title="MySQL" href="http://www.mysql.com/" >"MySQL</a></li>
-            <li><a target="_blank" class="techno" id="jquery" title="Jquery" href="http://jquery.com/" >Jquery</a></li>
             <li><a target="_blank" class="techno" id="photoshop" title="Photoshop" href="http://www.photoshop.com/" >Photoshop</a></li>
-            <li><a target="_blank" class="techno" id="bootstrap" title="Bootstrap" href="http://getbootstrap.com/" >"Bootstrap</a></li>
         </ul>
         <?php if($LANG == "FR"){ ?>
             <p>Bows Manager est une application web permettant la gestion d'opérations sur des archets.</p>
@@ -37,6 +38,7 @@
                 Le module <i>Fournisseurs</i> est indépendant des autres. Il permet de lister les produits par fournisseur (crin, vis, plaque de tête...) et réciproquement.
                 Cela permet un comparatif des prix plus rapide.
             </p>
+            <p>Code disponible sur <a target="_blank" href="https://github.com/davidlindet/bowsmanager" title="GitHub">GitHub</a></p>
             <p>
                 <label>Captures:</label>
                 <a class="zoombox preview zgallery2" title="Page d'accueil" href="img/projects/bowsmanager/home.jpg"><img width="100" src="img/projects/bowsmanager/home.jpg"></a>
@@ -56,6 +58,7 @@
                 The <i>Suppliers</i> module is independent of others. With it you can list products by suppliers (horsehair, screw, head plate...) and reciprocally.
                 Thus you can compare prices faster.
             </p>
+            <p>Code available on <a target="_blank" href="https://github.com/davidlindet/bowsmanager" title="GitHub">GitHub</a></p>
             <p>
                 <label>Screen Captures:</label>
                 <a class="zoombox preview zgallery2" title="Home Page" href="img/projects/bowsmanager/home.jpg"><img width="100" src="img/projects/bowsmanager/home.jpg"></a>

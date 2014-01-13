@@ -84,8 +84,10 @@ var portfolio = (function() {
     function initCarrouselProjects(){
         $('#content_projects').carouFredSel({
             responsive: true,
+            circular: false,
+            infinite: false,
             width: '100%',
-            scroll: { items:3, duration:2000, pauseOnHover:true },
+            scroll: { items:1, duration:500, pauseOnHover:true },
             items: {
                 width: 200,
                 visible: {

@@ -46,31 +46,32 @@
 </section>
 <?php
  /*
+<ul class="technologies" >
+    <li><label>Technologies:</label></li>
+    <li><a target="_blank" class="techno" id="html5" title="HTML 5" href="http://www.w3.org/TR/html51/" >HTML 5</a></li>
+    <li><a target="_blank" class="techno" id="css3" title="CSS 3" href="http://www.w3.org/TR/css3-selectors/" >CSS 3</a></li>
+    <li><a target="_blank" class="techno" id="php" title="Php" href="http://www.php.net/" >Php</a></li>
+    <li><a target="_blank" class="techno" id="zend" title="Zend Framework" href="http://framework.zend.com/" >Zend Framework</a></li>
+    <li><a target="_blank" class="techno" id="zend2" title="Zend Framework 2" href="http://framework.zend.com/" >Zend Framework 2</a></li>
 
-   <li><a target="_blank" class="techno" id="html5" title="HTML 5" href="http://www.w3.org/TR/html51/" >HTML 5</a></li>
-            <li><a target="_blank" class="techno" id="css3" title="CSS 3" href="http://www.w3.org/TR/css3-selectors/" >CSS 3</a></li>
-            <li><a target="_blank" class="techno" id="php" title="Php" href="http://www.php.net/" >Php</a></li>
-            <li><a target="_blank" class="techno" id="zend" title="Zend Framework" href="http://framework.zend.com/" >Zend Framework</a></li>
-            <li><a target="_blank" class="techno" id="zend2" title="Zend Framework 2" href="http://framework.zend.com/" >Zend Framework 2</a></li>
+    <li><a target="_blank" class="techno" id="android" title="Android" href="http://www.android.com/" >Android</a></li>
+    <li><a target="_blank" class="techno" id="java" title="Java" href="http://www.java.com/" >Java</a></li>
+    <li><a target="_blank" class="techno" id="jquery" title="Jquery" href="http://jquery.com/" >Jquery</a></li>
+    <li><a target="_blank" class="techno" id="extjs" title="ExtJs" href="http://www.sencha.com/products/extjs/" >ExtJs</a></li>
+    <li><a target="_blank" class="techno" id="fbapi" title="Facebook API" href="https://developers.facebook.com/" >Facebook API</a></li>
 
-            <li><a target="_blank" class="techno" id="android" title="Android" href="http://www.android.com/" >Android</a></li>
-            <li><a target="_blank" class="techno" id="java" title="Java" href="http://www.java.com/" >Java</a></li>
-            <li><a target="_blank" class="techno" id="jquery" title="Jquery" href="http://jquery.com/" >Jquery</a></li>
-            <li><a target="_blank" class="techno" id="extjs" title="ExtJs" href="http://www.sencha.com/products/extjs/" >ExtJs</a></li>
-            <li><a target="_blank" class="techno" id="fbapi" title="Facebook API" href="https://developers.facebook.com/" >Facebook API</a></li>
+    <li><a target="_blank" class="techno" id="photoshop" title="Photoshop" href="http://www.photoshop.com/" >Photoshop</a></li>
+    <li><a target="_blank" class="techno" id="premiere" title="Adobe Premiere" href="http://www.adobe.com/products/premiere.html" >"Adobe Premiere</a></li>
+    <li><a target="_blank" class="techno" id="aftereffects" title="After Effects" href="http://www.adobe.com/products/aftereffects.html" >"After Effect</a></li>
+    <li><a target="_blank" class="techno" id="blender" title="Blender" href="http://www.blender.org/" >"Blender</a></li>
+    <li><a target="_blank" class="techno" id="wordpress" title="Wordpress" href="http://wordpress.org/" >"Wordpress</a></li>
 
-            <li><a target="_blank" class="techno" id="photoshop" title="Photoshop" href="http://www.photoshop.com/" >Photoshop</a></li>
-            <li><a target="_blank" class="techno" id="premiere" title="Adobe Premiere" href="http://www.adobe.com/products/premiere.html" >"Adobe Premiere</a></li>
-            <li><a target="_blank" class="techno" id="aftereffects" title="After Effects" href="http://www.adobe.com/products/aftereffects.html" >"After Effect</a></li>
-            <li><a target="_blank" class="techno" id="blender" title="Blender" href="http://www.blender.org/" >"Blender</a></li>
-            <li><a target="_blank" class="techno" id="wordpress" title="Wordpress" href="http://wordpress.org/" >"Wordpress</a></li>
-
-            <li><a target="_blank" class="techno" id="mongo" title="MongoDB" href="http://www.mongodb.org/" >"MongoDB</a></li>
-            <li><a target="_blank"  class="techno" id="sphinx" title="SphinxSearch" href="http://sphinxsearch.com/" >"SphinxSearch</a></li>
-            <li><a target="_blank" class="techno" id="bootstrap" title="Bootstrap" href="http://getbootstrap.com/" >"Bootstrap</a></li>
-            <li><a target="_blank" class="techno" id="mysql" title="MySQL" href="http://www.mysql.com/" >"MySQL</a></li>
-            <li><a target="_blank" class="techno" id="apache" title="Apache" href="http://www.apache.org/" >"apache</a></li>
-
-
+    <li><a target="_blank" class="techno" id="mongo" title="MongoDB" href="http://www.mongodb.org/" >"MongoDB</a></li>
+    <li><a target="_blank"  class="techno" id="sphinx" title="SphinxSearch" href="http://sphinxsearch.com/" >"SphinxSearch</a></li>
+    <li><a target="_blank" class="techno" id="bootstrap" title="Bootstrap" href="http://getbootstrap.com/" >"Bootstrap</a></li>
+    <li><a target="_blank" class="techno" id="mysql" title="MySQL" href="http://www.mysql.com/" >"MySQL</a></li>
+    <li><a target="_blank" class="techno" id="apache" title="Apache" href="http://www.apache.org/" >"apache</a></li>
+</ul>
+<div class="clear"></div>
 
   */
