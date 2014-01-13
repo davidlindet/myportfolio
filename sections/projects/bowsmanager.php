@@ -7,7 +7,7 @@
             <?php if($LANG == "FR"){ ?>
             <p class="text">Bows Manager est une application web permettant la gestion d'opérations sur des archets...</p>
             <?php } else { ?>
-            <p class="text">Bows Manager is a Web Application allowing to manage operations made on bows...</p>
+            <p class="text">Bows Manager is a Web Application to manage operations made on bows...</p>
             <?php } ?>
         </section>
         <span class="more">More</span>
@@ -32,7 +32,7 @@
             <p>Elle se compose de différents modules (Client, Collections, Archets, Factures, Fournisseurs) qui interagissent entre eux.</p>
             <p>Ainsi l'utilisateur peut gérer une liste de clients. Chaque client envoie un lot se composant d'un ou plusieurs archets.
                 Lorsque toutes les opérations d'entretien et de maintenance ont été réalisées, le lot est renvoyé au client.
-                Les factures peuvent être indépendante ou alors attachées à un lot.
+                Les factures peuvent être indépendantes ou attachées à un lot.
             </p>
             <p>
                 Le module <i>Fournisseurs</i> est indépendant des autres. Il permet de lister les produits par fournisseur (crin, vis, plaque de tête...) et réciproquement.
@@ -48,14 +48,14 @@
             </p>
             <span class="close_project">Fermer</span>
         <?php } else { ?>
-            <p>Bows Manager is a Web Application allowing to manage operations made on bows.</p>
+            <p>Bows Manager is a Web Application to manage operations made on bows.</p>
             <p>It's composed of mutiple modules (Client, Collections, Bows, Bills, Suppliers) interacting together.</p>
-            <p>Users can mangage clients list. Each client send a collection of one or several bows.
+            <p>Users can manage a client list. Each client send a collection of one or several bows.
                 When all maintenance operations are done, the collection is sent back.
                 Bills can be independent or join to a collection.
             </p>
             <p>
-                The <i>Suppliers</i> module is independent of others. With it you can list products by suppliers (horsehair, screw, head plate...) and reciprocally.
+                The <i>Suppliers</i> module is independent of the others. With it you can list products by suppliers (horsehair, screw, head plate...) and reciprocally.
                 Thus you can compare prices faster.
             </p>
             <p>Code available on <a target="_blank" href="https://github.com/davidlindet/bowsmanager" title="GitHub">GitHub</a></p>

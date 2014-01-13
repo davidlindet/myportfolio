@@ -31,8 +31,8 @@
         <div class="clear"></div>
         <?php if($LANG == "FR"){ ?>
             <p>Shopcade est une plateforme de social e-commerce, elle offre à ses utilisateurs l'opportunité de découvrir plus de 80 millions de produits.</p>
-            <p>Lorsqu'un utilisateur se créer un compte il peut ajouter des produits qu'il apprécie à sa espace personnel.
-            Par la suite il peut les grouper sous forme de liste. Il peut partager ses produits sur les réseaux sociaux tel Facebook mais également les acheter sur le site du fournisseurs et ainsi obtenir une commission.
+            <p>Lorsqu'un utilisateur se crée un compte il peut ajouter des produits qu'il apprécie à son espace personnel et les grouper sous forme de liste.
+                Il peut partager ses produits sur les réseaux sociaux tel que Facebook.
             </p>
             <p>Pendant 2 ans j'ai eu l'opportunité de travailler sur de nombreux aspects de cette application que se soit Back End ou Front End tel que les Emails, le backoffice ou le moteur de recherche</p>
             <p>Vous pouvez découvrir cette application <a target="_blank" href="http://www.shopcade.com/" title="Shopcade">ici</a></p>

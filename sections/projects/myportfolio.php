@@ -5,11 +5,11 @@
         <section class="description">
             <h2>Portfolio</h2>
             <?php if($LANG == "FR"){ ?>
-                <p class="text">En <?php $currentYear = date('Y', time()); echo $currentYear - 2006; ?> ans, j'ai découvers de nombreux langages et technologies.
-                    Ce site web réalisé en HTML5, présente quelques travaux sur lesquels j'ai travaillés...</p>
+                <p class="text">En <?php $currentYear = date('Y', time()); echo $currentYear - 2006; ?> ans, j'ai découvert de nombreux langages et technologies.
+                    Ce site web réalisé en HTML5, présente quelques uns des travaux sur lesquels j'ai travaillé...</p>
             <?php } else { ?>
-                <p class="text">In <?php $currentYear = date('Y', time()); echo $currentYear - 2006; ?> years, I discover a lot of languages and technologies.
-                This website present some works I've done...</p>
+                <p class="text">In the past <?php $currentYear = date('Y', time()); echo $currentYear - 2006; ?> years, I discovered a lot of languages and technologies.
+                This website present some of the projects I worked on...</p>
             <?php } ?>
         </section>
         <span class="more">More</span>
@@ -26,20 +26,20 @@
        </ul>
         <div class="clear"></div>
         <?php if($LANG == "FR"){ ?>
-        <p>En <?php $currentYear = date('Y', time()); echo $currentYear - 2006; ?> ans, j'ai découvers de nombreux langages et technologies.
-           Ce site présente quelques un des travaux sur lesquels j'ai travaillés.</p>
-        <p>Depuis longtemps, j'apprécie le multimédia. Avec l'arrivée d'HTML 5 et de CSS 3, il est possible de développer des applications aussi riche qu'en Flash, sans avoir besoin d'utiliser un logiciel tiers.</p>
-        <p>C'est la raison pour laquelle, j'ai décidé d'utiliser ces technologies pour développer mon Portfolio.</p>
-        <p>Le code de mon Portfolio et certains autres projets se trouve sur ma page <a href="https://github.com/davidlindet" title="GitHub">GitHub</a>.</p>
-        <p>Si vous avez des questions à propos de ce portfolio ou d'un autre de mes projets, envoyez moi un message via la section contact.</p>
+        <p>En <?php $currentYear = date('Y', time()); echo $currentYear - 2006; ?> ans, j'ai découvert de nombreux langages et technologies.
+           Ce site présente quelques uns des travaux sur lesquels j'ai travaillé.</p>
+        <p>Depuis longtemps, j'apprécie le web. Avec l'arrivée d'HTML 5 et de CSS 3, il est possible de développer des applications aussi riches qu'en Flash, sans avoir besoin d'utiliser un logiciel tiers.</p>
+        <p>C'est la raison pour laquelle j'ai décidé d'utiliser ces technologies pour développer mon Portfolio.</p>
+        <p>Si vous avez des questions, n'hésitez pas à m'envoyer un message via la section contact.</p>
+        <p>Code disponible sur <a href="https://github.com/davidlindet" title="GitHub">GitHub</a></p>
         <span class="close_project">Fermer</span>
         <?php } else { ?>
-        <p>In <?php $currentYear = date('Y', time()); echo $currentYear - 2006; ?> years, I discover a lot of languages and technologies.
-            This website present some works I've done.</p>
-        <p>I enjoy multimedia for a long time. With the advent of HTML 5 and CSS 3, it's possible to develop richer web applications without a third-party software like Flash.</p>
-        <p>It's the reason why I used these technologies to develop my Portfolio.</p>
-        <p>The code of this website is available on my <a target="_blank" href="https://github.com/davidlindet" title="GitHub">GitHub</a> page.</p>
-        <p>If you have questions about this portfolio or an other project, send me a message through the contact section.</p>
+        <p>In the past <?php $currentYear = date('Y', time()); echo $currentYear - 2006; ?> years, I discovered a lot of languages and technologies.
+            This website present some of the projects I worked on.</p>
+        <p>I really enjoy working on web applications. With the advent of HTML 5 and CSS 3, it is possible to develop richer web applications without a third-party software like Flash.</p>
+        <p>That's the reason why I used these technologies to develop my Portfolio.</p>
+        <p>If you have any questions feel free to contact me through the contact section.</p>
+        <p>Code available on <a target="_blank" href="https://github.com/davidlindet" title="GitHub">GitHub</a></p>
         <span class="close_project">Close</span>
         <?php } ?>
     </div>

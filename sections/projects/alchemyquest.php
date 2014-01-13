@@ -20,10 +20,10 @@
         <div class="clear"></div>
         <?php if($LANG == "FR"){ ?>
         <p>Alchemy Quest est un jeu inspiré de Bejeweled et développé en HTML5. Basé sur un tutoriel, son développement m'a permis de découvrir en détails certains aspects d'HTML5 (WebSockets, Canvas...)</p>
-        <p>Le but de ce jeu est simple: obtenir le plus grand score. Pour cela il faut au minimum aligner 3 éléments identiques.
-        Arrivé à un certain palier de point la difficulté augmente. Il existe 3 modes de difficulté de départ (Facile, Moyen, Difficile).</p>
-        <p>Le code de cette application est adaptatif en fonction du support, afin d'offrir la meilleur expérience de jeu possible.</p>
-        <p><a href="http://alchemyquest.david-lindet.fr/" title="Alchemy Quest" target="_blank" >Essayez le!</a></p>
+        <p>Le but de ce jeu est simple: obtenir le plus grand score. Pour cela il faut aligner au minimum 3 éléments identiques.
+        Arrivé à un certain palier de points la difficulté augmente. Il existe 3 modes de difficulté de départ (Facile, Moyen, Difficile).</p>
+        <p>Cette application s'adapte au support (smartphone, tablette, ordinateur), afin d'offrir la meilleur expérience de jeu possible.</p>
+        <p>Essayez le <a href="http://alchemyquest.david-lindet.fr/" title="Alchemy Quest" target="_blank" >ici</a></p>
         <p>Code disponible sur <a target="_blank" href="https://github.com/davidlindet/alchemyquest" title="GitHub">GitHub</a></p>
         <p>
             <label>Captures:</label>
@@ -32,11 +32,11 @@
         </p>
         <span class="close_project">Fermer</span>
         <?php } else { ?>
-        <p>Alchemy Quest is a game inspired of Bejeweled and developed in HTML5. Based on a tutorial, it helped me to discover in details some aspects of HTML5 (WebSockets, Canvas...)</p>
+        <p>Alchemy Quest is a game similar to Bejeweled and developed in HTML5. Based on a tutorial, it helped me to discover in details some aspects of HTML5 (WebSockets, Canvas...)</p>
         <p>The goal of this game is pretty simple: have the biggest score. For that purpose you just have to align 3 similar elements.
             When you reach a specific level of points the difficulty is increased. You have the choice between 3 starting modes of difficulty (Easy, Regular, Hard).</p>
         <p>This application is responsive to offer the best gameplay experience.</p>
-        <p><a href="http://alchemyquest.david-lindet.fr/" title="Alchemy Quest" target="_blank" >Try it!</a></p>
+        <p>Try it <a href="http://alchemyquest.david-lindet.fr/" title="Alchemy Quest" target="_blank" >here</a></p>
         <p>Code available on <a target="_blank" href="https://github.com/davidlindet/alchemyquest" title="GitHub">GitHub</a></p>
         <p>
             <label>Captures:</label>

@@ -7,8 +7,11 @@
         $_POST["recaptcha_challenge_field"],
         $_POST["recaptcha_response_field"]);
 
+    $lang = !empty($_POST['lang']) ? $_POST['lang'] : "FR";
+
     if (!$resp->is_valid) {
-        $response = array('success' => false, 'error' => 'Wrong captcha! Reload it!');
+        $error = $lang == "FR" ? 'Mauvais captcha! Rechargez le!' : 'Wrong captcha! Reload it!';
+        $response = array('success' => false, 'error' => $error);
     } else {
         if(!empty($_POST) && !empty($_POST['name']) && !empty($_POST['subject']) && !empty($_POST['email']) && !empty($_POST['message'])){
 
@@ -24,7 +27,8 @@
             // ini_set('sendmail_from', $email);
             mail($myEmail, $subject, $message, $headers);
 
-            $response = array('success' => true, 'message' => 'Votre message a bien été envoyé !');
+            $msg = $lang == "FR" ? 'Votre message a bien été envoyé !' : 'Message sent !';
+            $response = array('success' => true, 'message' => $msg);
         }
     }
 
