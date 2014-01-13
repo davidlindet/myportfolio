@@ -6,7 +6,7 @@
             <h2>Portfolio</h2>
             <?php if($LANG == "FR"){ ?>
                 <p class="text">En <?php $currentYear = date('Y', time()); echo $currentYear - 2006; ?> ans, j'ai découvers de nombreux langages et technologies.
-                    Ce site web réalisé en HTML5, présente quelques travaux sur lesquels j'ai travaillés....</p>
+                    Ce site web réalisé en HTML5, présente quelques travaux sur lesquels j'ai travaillés...</p>
             <?php } else { ?>
                 <p class="text">In <?php $currentYear = date('Y', time()); echo $currentYear - 2006; ?> years, I discover a lot of languages and technologies.
                 This website present some works I've done...</p>
@@ -38,7 +38,7 @@
             This website present some works I've done.</p>
         <p>I enjoy multimedia for a long time. With the advent of HTML 5 and CSS 3, it's possible to develop richer web applications without a third-party software like Flash.</p>
         <p>It's the reason why I used these technologies to develop my Portfolio.</p>
-        <p>The code of this website is available on my <a href="https://github.com/davidlindet" title="GitHub">GitHub</a> page.</p>
+        <p>The code of this website is available on my <a target="_blank" href="https://github.com/davidlindet" title="GitHub">GitHub</a> page.</p>
         <p>If you have questions about this portfolio or an other project, send me a message through the contact section.</p>
         <span class="close_project">Close</span>
         <?php } ?>
