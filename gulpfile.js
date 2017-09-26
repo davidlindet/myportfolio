@@ -19,7 +19,8 @@ var dirs = {
         vendor: {
             css: [
                 './vendor/supersized-3.2/slideshow/css/supersized.css',
-                './vendor/GammaGallery/css/style.css'
+                './vendor/GammaGallery/css/style.css',
+                './node_modules/flickity/dist/flickity.css',
             ],
             less: [
                 './node_modules/font-awesome/less/font-awesome.less'
@@ -34,6 +35,7 @@ var dirs = {
                 './node_modules/jquery.browser/dist/jquery.browser.js',
                 './vendor/supersized-3.2/slideshow/js/supersized.3.2.0.js',
                 './vendor/GammaGallery/gamma.js',
+                './node_modules/flickity/dist/flickity.pkgd.js',
             ],
             img: [
                 './vendor/GammaGallery/img/loader_dark.gif',
@@ -52,6 +54,10 @@ var dirs = {
         css:   './app/public/css/',
         js:    './app/public/js/'
     },
+    watch: {
+        less:   './app/assets/less/*.less',
+        js:    './app/assets/js/*.js'
+    }
 };
 
 /**
@@ -224,8 +230,6 @@ gulp.task('default', [ 'fonts:copy', 'images:copy', 'js:vendor:min', 'js:app:min
 
 // Watch task
 gulp.task('watch', function() {
-    watchDir(dirs.sources.app.js, [ 'js:app:min' ]);
-    watchDir(dirs.sources.app.less, [ 'css:app:min' ]);
-    watchDir(dirs.sources.vendor.js, [ 'js:vendor:min' ]);
-    watchDir(dirs.sources.vendor.less, [ 'css:vendor:min' ]);
+    watchDir(dirs.watch.js, [ 'js:app:min' ]);
+    watchDir(dirs.watch.less, [ 'css:app:min' ]);
 });

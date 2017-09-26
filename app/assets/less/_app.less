@@ -35,7 +35,7 @@ html {
 body {
     margin: 0px;
     padding: 0px;
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: @text-font;
     color: #000;
     line-height: 1.231;
     font-size: 12px;
@@ -112,7 +112,7 @@ input[type="checkbox"], input[type="radio"] {
 }
 
 label, input, select, textarea {
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: @text-font;
     font-size: 12px;
     font-weight: normal;
     line-height: normal;
@@ -135,7 +135,7 @@ td {
 
 //  2.0 -- Links
 a {
-    color: #b00c22;
+    color: @color-red;
     text-decoration: none;
     &:hover {
         color: #000;
@@ -229,9 +229,12 @@ h6 {
     top: 0;
     left: 0;
     z-index: 999;
-    width: 226px;
+    width: 201px;
     height: 100%;
-    background: url('../img/content/bg_menu.png') top left repeat-y;
+    background-color: @color-blue;
+    -webkit-box-shadow: 7px 0px 7px 0px rgba(0,0,0,0.4);
+    -moz-box-shadow: 7px 0px 7px 0px rgba(0,0,0,0.4);
+    box-shadow: 7px 0px 7px 0px rgba(0,0,0,0.4);
 }
 #hide {
     position: absolute;
@@ -251,19 +254,26 @@ h6 {
 }
 
 #menu {
-    font-family: "Eras Demi ITC", Verdana, Geneva, sans-serif;
+    font-family: @title-font;
     font-size: 14px;
     text-align: right;
     margin: 50px 0 0 0;
     li {
-        height: 36px;
-        line-height: 36px;
+        height: 30px;
+        line-height: 30px;
         width: 226px;
+        margin: 10px 0;
         &.active {
-            background: url('../img/content/bg_menu_active.png') top left no-repeat;
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#bebdbd+0,ffffff+21,bebdbd+48,ffffff+73,bebdbd+93,ffffff+100 */
+            background: #bebdbd; /* Old browsers */
+            background: -moz-linear-gradient(left, #bebdbd 0%, #ffffff 21%, #bebdbd 48%, #ffffff 73%, #bebdbd 93%, #ffffff 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, #bebdbd 0%,#ffffff 21%,#bebdbd 48%,#ffffff 73%,#bebdbd 93%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, #bebdbd 0%,#ffffff 21%,#bebdbd 48%,#ffffff 73%,#bebdbd 93%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bebdbd', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+            border-right: 2px solid @color-red;
             a {
                 text-transform: uppercase!important;
-                color: #b00c22!important;
+                color: @color-red!important;
                 margin-right: 25px!important;
             }
         }
@@ -272,7 +282,7 @@ h6 {
             display: block;
             margin-right: 45px;
             &:hover {
-                color: #b00c22;
+                color: @color-red;
             }
         }
     }
@@ -327,14 +337,14 @@ h6 {
     min-width: 700px;
     padding-top: 140px;
     h1 {
-        font-family: "Eras Demi ITC", Verdana, Geneva, sans-serif;
+        font-family: @title-font;
         margin: 0 0 50px 0;
         padding: 0;
         display: block;
-        color: #b00c22;
+        color: @color-red;
         font-size: 42px;
         span {
-            font-family: Verdana, Geneva, sans-serif;
+            font-family: @text-font;
             text-transform: uppercase!important;
             font-size: 18px;
             color: #ffffff;
@@ -347,7 +357,7 @@ h6 {
     padding: 20px;
     background: rgba(0,0,0,0.8);
     color: #fff;
-    border-top: 1px solid #2088c9;
+    border-top: 1px solid @color-blue;
 }
 #portrait {
     width: 50%;
@@ -368,8 +378,8 @@ h6 {
     blockquote {
         margin: 25px 20px 10px 0;
         padding: 0 20px;
-        border-right: 3px solid #2088c9;
-        color: #2088c9;
+        border-right: 3px solid @color-blue;
+        color: @color-blue;
         line-height: 1.5;
         font-style: italic;
         font-family: Georgia;
@@ -395,16 +405,16 @@ h6 {
 #latest_projects,
 #big_networks {
     h2 {
-        font-family: "Eras Demi ITC", Verdana, Geneva, sans-serif;
+        font-family: @title-font;
         margin: 0 0 30px 0;
         padding: 0;
         display: block;
-        color: #2088c9;
+        color: @color-blue;
         font-size: 30px;
         text-align: center;
     }
     span {
-        font-family: Verdana, Geneva, sans-serif;
+        font-family: @text-font;
         text-transform: uppercase!important;
         font-size: 12px;
         color: #ffffff;
@@ -432,7 +442,7 @@ h6 {
     -moz-transition: 0.3s;
 }
 .btn_slider:hover {
-    background-color: #b00c22;
+    background-color: @color-red;
 }
 .btn_slider.disabled {
     background-color: #444444;
@@ -447,12 +457,12 @@ h6 {
 // 7.4 -- Single Project
 .single_project {
     position: relative;
-    width: 200px;
+    width: 400px;
     min-height: 365px;
     background-color: #fff;
     display: inline-block;
     margin: 0 40px 40px 0;
-    border-top: 1px solid #2088c9;
+    border-top: 1px solid @color-blue;
     transition: 0.3s;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
@@ -470,7 +480,7 @@ h6 {
     background-color: #000;
 }
 .project_active {
-    border-top: 1px solid #b00c22;
+    border-top: 1px solid @color-red;
 }
 .single_project:hover h2,
 .project_active h2 {
@@ -487,7 +497,7 @@ h6 {
     padding: 0px;
 }
 .single_project .description h2 {
-    font-family: "Eras Demi ITC", Verdana, Geneva, sans-serif;
+    font-family: @title-font;
     line-height: 1;
 }
 .single_project .description .text {
@@ -565,7 +575,7 @@ h6 {
 .preview:hover { opacity: 1; }
 
 .close_project {
-    background-color: #b00c22;
+    background-color: @color-red;
     color: #fff;
     text-transform: uppercase;
     display: block;
@@ -583,7 +593,7 @@ h6 {
     padding: 20px;
     background: rgba(0,0,0,0.8);
     color: #fff;
-    border-top: 1px solid #2088c9;
+    border-top: 1px solid @color-blue;
 }
 #form > p {
     margin-bottom: 15px!important;
@@ -612,7 +622,7 @@ textarea:focus {
     bottom: -26px;
     left: 0;
     border: none;
-    background-color: #b00c22;
+    background-color: @color-red;
     color: #fff;
     text-transform: uppercase;
     display: block;
@@ -625,7 +635,7 @@ textarea:focus {
     color: #000;
 }
 #success {
-    background: #2088c9;
+    background: @color-blue;
     color: #000;
     font-weight: bold;
     padding: 10px;
@@ -644,7 +654,7 @@ textarea:focus {
     padding: 5px;
     bottom: -26px;
     border: none;
-    background-color: #b00c22;
+    background-color: @color-red;
     color: #fff;
     text-transform: uppercase;
     display: none;
@@ -759,7 +769,7 @@ textarea:focus {
     overflow: auto;
 
     h3 {
-        font-family: "Eras Demi ITC", Verdana, Geneva, sans-serif;
+        font-family: @title-font;
         color: #fff;
         margin: 0px;
         padding: 0 0 15px 0;
@@ -771,7 +781,7 @@ textarea:focus {
         display: block;
     }
     a {
-        color: #2088c9;
+        color: @color-blue;
         font-weight: bold;
         &:hover {
             color: #fff;

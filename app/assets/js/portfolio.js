@@ -83,22 +83,9 @@ var portfolio = (function(jQuery) {
      * Init Carrousel Projects
      */
     function initCarrouselProjects(){
-        // $('#content_projects').carouFredSel({
-        //     responsive: true,
-        //     circular: false,
-        //     infinite: false,
-        //     width: '100%',
-        //     scroll: { items:1, duration:500, pauseOnHover:true },
-        //     items: {
-        //         width: 200,
-        //         visible: {
-        //             min: 1,
-        //             max: 3
-        //         }
-        //     },
-        //     next:'#next',
-        //     prev:'#prev'
-        // });
+        $('#content_projects').flickity({
+            cellAlign: 'left'
+        });
     }
 
     //init details about project

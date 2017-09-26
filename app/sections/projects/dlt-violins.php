@@ -1,9 +1,9 @@
-<!-- ALCHEMYQUEST -->
+<!-- DLT VIOLINS -->
 <section class="single_project carousel-cell" >
-    <img src="./public/img/projects/alchemyquest.jpg">
+    <img src="./public/img/projects/dlt-violins.png">
     <a href="#modal-alchemyquest" class="slideprojects" id="preview_alchemyquest" >
         <section class="description">
-            <h2>Alchemy Quest</h2>
+            <h2>DLT VIOLINS</h2>
             <p class="text">Alchemy Quest est un jeu inspiré de Bejeweled et développé en HTML5...</p>
         </section>
         <span class="more">More</span>

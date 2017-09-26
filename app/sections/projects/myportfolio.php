@@ -1,5 +1,5 @@
 <!-- MY PORTFOLIO -->
-<section class="single_project">
+<section class="single_project carousel-cell">
     <img src="./public/img/projects/myportfolio.jpg">
     <a href="#modal-portfolio" class="slideprojects" id="preview_portfolio" >
         <section class="description">

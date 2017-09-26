@@ -1,5 +1,5 @@
 <!-- SHOPCADE -->
-<section class="single_project" >
+<section class="single_project carousel-cell" >
     <img src="./public/img/projects/shopcade.jpg">
     <a href="#modal-shopcade" class="slideprojects" id="preview_shopcade" >
         <section class="description">

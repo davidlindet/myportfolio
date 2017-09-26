@@ -10,3 +10,71 @@
         width: 150px;
     }
 }
+
+@media only screen  and (min-width: 769px) and (max-width: 1100px) {
+    #portrait img {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 768px) {
+
+    #sidebar {
+        display: none;
+        right: 0;
+        z-index: 999;
+        height: 5em;
+        width: 100%;
+        background: #2088c9;
+    }
+    #lang_bar {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    #hide {
+        display: none;
+    }
+    #copyright {
+        display: none;
+    }
+    .content {
+        min-width: 0;
+        margin: 0!important;
+        height: auto;
+        h1 {
+            line-height: 0.8em;
+            padding-left: 0.5em;
+            span {
+                display: inline-block;
+            }
+        }
+    }
+    #portrait {
+        width: 100%;
+        border: none;
+        float: none;
+        padding: 0;
+        img {
+            width: 45%;
+        }
+    }
+    #latest_projects {
+        padding: 0;
+        li {
+            float: left;
+            width: 50%;
+        }
+        h2 {
+            text-align: left;
+        }
+    }
+}
+@media only screen and (max-width: 590px) {
+    #portrait img {
+        width: 100%;
+    }
+    #latest_projects li {
+        float: none;
+        width: 100%;
+    }
+}
