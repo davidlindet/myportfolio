@@ -220,4 +220,7 @@ pip-log.txt
 #PHOTOSHOP
 *.psd
 
-sections/contact/privateKey.php
+src/sections/contact/privateKey.php
+/node_modules/
+/bower_components/
+/app/public/
