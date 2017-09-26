@@ -1,0 +1,78 @@
+/**
+    File: _variables.less
+    Description: This file is intended to store all global-scope LESS variables for the application
+    Summary:
+        1.0 -- Main Colors
+            1.1 -- Components colors
+        2.0 -- Admin Colors
+        3.0 -- Dimensions
+        4.0 -- Z-Indexes
+ */
+
+//-----------------------
+// 1.0 -- Main Colors
+@color-red:   #ed1c24;
+@color-white: #ffffff;
+@color-black: #505050;
+@color-dark-black: #000000;
+@color-grey:  #909090;
+@color-green: #21a86b;
+@color-blue:  #3090df;
+@color-light-grey:  #d0d0d0;
+@color-light-grey-light:  #eeeeee;
+@color-purple: #8F2B8C;
+
+// 1.1 -- Components colors
+@dossier-color: #00bbd3;
+@event-color: #f34235;
+@document-color: #4baf4f;
+
+@emphase-color: #f34235;
+
+@navbar-link-color: @color-white;
+@navbar-link-background: @color-grey;
+@navbar-link-active-background: @color-dark-black;
+
+@status-shared-color: @color-green;
+@status-unshared-color: @color-grey;
+
+//-----------------------
+// 2.0 -- Admin Colors
+
+// Background color
+@admin-background-color: @color-purple;
+@admin-background-selected-item: lighten(@color-purple, 50%);
+
+// Border Color
+@admin-border-color: @color-purple;
+@admin-border-color-details: @color-light-grey;
+@admin-border-color-actions: #DDBFDC;
+// text-color
+@admin-text-color-default: #000000;
+@admin-text-color-reverse: #ffffff; // text color used on elem with background: @admin-background-color
+@admin-text-color-highspot: @color-purple; // text color used on some elements to show to the user that it's something usefull to know
+
+
+//-----------------------
+// 3.0 -- Dimensions
+@main-container-height: 850px; // Minimum height for the main container
+
+@admin-right-panel-height: 728px; // Min. height for the right panel in Admin sharing pages
+
+@home-dossier-list-height: 200px;    // Min height for the dossier list in Home page
+@dossier-dossier-list-height: 360px; // Min height for the dossier list in Dossier page
+@dossier-event-list-height: 282px;   // Min height for the event list in Dossier page
+@dossier-doc-list-height: 366px;     // Min height for the upload area in Dossier page
+@admin-dossier-list-height: 660px;   // Min height for the dossier list in Admin sharing pages
+
+@widget-body-height: 370px;   // Height for homepage's widgets body
+@widget-footer-height: 2.3em; // Height for homepage's widgets footer
+
+//-----------------------
+// 4.0 -- Z-Indexes
+@z-foreground-hight: 1000;
+@z-foreground-medium: 800;
+@z-foreground-low: 600;
+@z-background-hight: 400;
+@z-background-medium: 200;
+@z-background-low: 1;
