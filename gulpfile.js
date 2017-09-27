@@ -19,26 +19,25 @@ var dirs = {
         vendor: {
             css: [
                 './vendor/supersized-3.2/slideshow/css/supersized.css',
-                './vendor/GammaGallery/css/style.css',
                 './node_modules/flickity/dist/flickity.css',
+                './vendor/Zoombox-2.0/zoombox.css',
             ],
             less: [
                 './node_modules/font-awesome/less/font-awesome.less'
             ],
             fonts: [
-                './node_modules/font-awesome/fonts/*',
-                './vendor/GammaGallery/fonts/*'
+                './node_modules/font-awesome/fonts/*'
             ],
             js: [
                 './node_modules/jquery/dist/jquery.js',
                 './node_modules/jquery-serializeobject/jquery.serializeObject.js',
                 './node_modules/jquery.browser/dist/jquery.browser.js',
                 './vendor/supersized-3.2/slideshow/js/supersized.3.2.0.js',
-                './vendor/GammaGallery/gamma.js',
                 './node_modules/flickity/dist/flickity.pkgd.js',
+                './vendor/Zoombox-2.0/zoombox.js',
             ],
             img: [
-                './vendor/GammaGallery/img/loader_dark.gif',
+                './vendor/Zoombox-2.0/img/**',
             ]
         },
         app: {

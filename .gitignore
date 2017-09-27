@@ -224,3 +224,4 @@ src/sections/contact/privateKey.php
 /node_modules/
 /bower_components/
 /app/public/
+!/vendor/lightbox2-2.9.0/dist/

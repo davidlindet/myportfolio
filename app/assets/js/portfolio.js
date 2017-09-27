@@ -13,7 +13,7 @@ var portfolio = (function(jQuery) {
         initLatestProjects();
         initCarrouselProjects();
         initDetailsProject();
-        initZoomBox();
+        initGalleries();
         initContactForm();
     }
 
@@ -111,12 +111,12 @@ var portfolio = (function(jQuery) {
     }
 
     /**
-     * Init Zoom Box
+     * Init Galleries
      */
-    function initZoomBox() {
-        // $('a.zoombox').zoombox({
-        //     gallery : true
-        // });
+    function initGalleries() {
+        $('a.zoombox').zoombox({
+            gallery : true
+        });
     }
 
     /**

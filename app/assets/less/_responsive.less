@@ -2,20 +2,18 @@
     File: _responsive.less
     Description: Contains Responsive rules
     Summary:
-
+        1.0 -- Small PC Screen
+        2.0 -- Tablet
+        3.0 - Phone
 
  */
-@media (max-device-width: 1300px) {
-    #portrait img {
-        width: 150px;
-    }
-}
-
-@media only screen  and (min-width: 769px) and (max-width: 1100px) {
+/* 1.0 -- Small PC Screen */
+@media only screen  and (min-width: 769px) and (max-width: 1295px) {
     #portrait img {
         width: 100%;
     }
 }
+/* 2.0 -- Tablet */
 @media only screen and (max-width: 768px) {
 
     #sidebar {
@@ -62,13 +60,20 @@
             text-align: left;
         }
     }
+    #form {
+        width: auto;
+    }
 }
+/* 3.0 - Phone */
 @media only screen and (max-width: 590px) {
     #portrait img {
         width: 100%;
     }
     #latest_projects li {
         float: none;
+        width: 100%;
+    }
+    .single_project {
         width: 100%;
     }
 }
