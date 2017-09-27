@@ -10,7 +10,7 @@
             <p class="text">Bows Manager is a Web Application to manage operations made on bows...</p>
             <?php } ?>
         </section>
-        <span class="more">More</span>
+        <span class="more"><i class="plus-icon">+</i></span>
     </a>
     <div id="modal-bowsmanager" style="display: none;">
         <h3 class="title_pageslide">Bows Manager</h3>

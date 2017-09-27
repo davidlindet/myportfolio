@@ -12,7 +12,7 @@
                 This website present some of the projects I worked on...</p>
             <?php } ?>
         </section>
-        <span class="more">More</span>
+        <span class="more"><i class="plus-icon">+</i></span>
     </a>
     <div id="modal-portfolio" class="modal">
         <h3 class="title_pageslide">Portfolio</h3>

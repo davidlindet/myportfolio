@@ -10,7 +10,7 @@
                 <p class="text">Shopcade is a social e-commerce platform, it offers to users the opportunity to discover more than 80 millions products...</p>
             <?php } ?>
         </section>
-        <span class="more">More</span>
+        <span class="more"><i class="plus-icon">+</i></span>
     </a>
     <div id="modal-shopcade" class="modal">
         <h3 class="title_pageslide">Shopcade</h3>

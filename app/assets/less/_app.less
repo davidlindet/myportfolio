@@ -516,15 +516,32 @@ h6 {
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 31px;
-    height: 31px;
-    background: url('../img/sprites/more.png') top left no-repeat;
-    text-indent: -7000px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 31px 31px;
+    border-color: transparent transparent @color-blue transparent;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    .plus-icon {
+        font-style: normal;
+        position: absolute;
+        top: 15px;
+        right: 5px;
+        color: @color-black;
+        transition: 0.3s;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+    }
 }
 .single_project:hover .more,
 #latest_projects li .latest_project:hover .more,
-.project_active .more{
-    background: url('../img/sprites/more.png') -31px 0px no-repeat;
+.project_active .more {
+    border-color: transparent transparent @color-red transparent;
+    .plus-icon {
+        color: @color-white;
+    }
 }
 .modal {
     display: none;

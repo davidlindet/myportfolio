@@ -6,7 +6,7 @@
             <h2>Alchemy Quest</h2>
             <p class="text">Alchemy Quest est un jeu inspiré de Bejeweled et développé en HTML5...</p>
         </section>
-        <span class="more">More</span>
+        <span class="more"><i class="plus-icon">+</i></span>
     </a>
     <div id="modal-alchemyquest" class="modal">
         <h3 class="title_pageslide">Alchemy Quest</h3>
