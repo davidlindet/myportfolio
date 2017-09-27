@@ -74,7 +74,6 @@
 
     <!-- ASIDE BAR -->
     <aside id="sidebar">
-        <div class="hide" id="hide"></div>
         <!-- LANG BAR -->
         <div id="lang_bar">
             <a href="?lang=FR" id="FR" <?php echo $LANG == "FR" ? "class='active'" : ''; ?> title="Français" >Français</a>

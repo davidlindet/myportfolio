@@ -236,16 +236,6 @@ h6 {
     -moz-box-shadow: 7px 0px 7px 0px rgba(0,0,0,0.4);
     box-shadow: 7px 0px 7px 0px rgba(0,0,0,0.4);
 }
-#hide {
-    position: absolute;
-    top: 0px;
-    right: -29px;
-    cursor: pointer;
-    width: 112px;
-    height: 23px;
-}
-.hide { background: url('../img/content/hide.png') top left no-repeat; }
-.show { background: url('../img/content/show.png') top left no-repeat!important; }
 
 #logo {
     width: 155px;
@@ -395,10 +385,7 @@ h6 {
 }
 #latest_projects {
     padding-left: 60%;
-    ul {
-        list-style: none;
-    }
-    li .latest_project{
+    .latest_project {
         position: relative;
         display: block;
         width: 250px;
@@ -536,7 +523,7 @@ h6 {
     }
 }
 .single_project:hover .more,
-#latest_projects li .latest_project:hover .more,
+#latest_projects .latest_project:hover .more,
 .project_active .more {
     border-color: transparent transparent @color-red transparent;
     .plus-icon {
@@ -549,6 +536,13 @@ h6 {
 .slideprojects {
     display: block;
     min-height: 150px;
+}
+#active_project_wrapper {
+    display: none;
+}
+.flickity-prev-next-button {
+    border-radius: 0;
+    background: hsla(0, 0%, 69%, 0.75);
 }
 // 7.5 -- Details Project
 .technologies {
@@ -749,9 +743,9 @@ textarea:focus {
 // 9.0 -- Lang Bar
 #lang_bar {
     height: 20px;
-    width: 75px;
+    width: 65px;
     line-height: 5px;
-    padding: 5px 15px 5px 0;
+    padding: 5px 0;
     margin: auto;
 }
 #lang_bar a {

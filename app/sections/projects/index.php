@@ -17,5 +17,5 @@
         include('sections/projects/myportfolio.php');
     ?>
     </div>
-
+    <div id="active_project_wrapper" class="single_project project_active" ></div>
 </section>
