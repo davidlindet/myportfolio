@@ -225,3 +225,4 @@ src/sections/contact/privateKey.php
 /bower_components/
 /app/public/
 !/vendor/lightbox2-2.9.0/dist/
+/app/sections/contact/privateKey.php

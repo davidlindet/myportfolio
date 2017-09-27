@@ -12,11 +12,7 @@
         <?php } else { ?>
         <p>A question? Fill that form to contact me.</p>
         <?php } ?>
-        <script type="text/javascript">
-            var RecaptchaOptions = {
-                theme : "clean"
-            };
-        </script>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
         <form method="post" action="">
             <input type="hidden" name="lang" value="<?php echo $LANG ?>" />
             <p><input type="text" placeholder="<?php echo ($LANG == "FR") ? "Nom" : "Name" ?>" id="name" name="name"></p>
@@ -26,13 +22,10 @@
                 <textarea id="message" placeholder="Message" name="message"></textarea>
                 <img id="loading" src="./public/img/small-loading.gif">
             </p>
-            <?php
-                require_once('sections/contact/recaptchalib.php');
-                $publickey = "6LdkzewSAAAAADaz4CWBYQTE6vQdJ45wkZ6zeQb0";
-                echo recaptcha_get_html($publickey);
-            ?>
             <div id="error_captcha" ></div>
-            <p><input type="submit" value="<?php echo ($LANG == "FR") ? "Envoyer" : "Submit" ?>" id="submit" name="submit" /></p>
+            <p><input type="submit" value="<?php echo ($LANG == "FR") ? "Envoyer" : "Submit" ?>" id="submit" name="submit"  class="g-recaptcha"
+                      data-sitekey="6LcPTTIUAAAAADcb76KmpBh3PR3Y68IKDk-AEMba"
+                      data-callback="YourOnSubmitFn"/></p>
 
         </form>
 

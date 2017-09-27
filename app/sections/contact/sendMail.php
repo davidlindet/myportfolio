@@ -2,14 +2,21 @@
     require_once('recaptchalib.php');
     require_once('privateKey.php');
 
-    $resp = recaptcha_check_answer ($privatekey,
-        $_SERVER["REMOTE_ADDR"],
-        $_POST["recaptcha_challenge_field"],
-        $_POST["recaptcha_response_field"]);
+    // empty response
+    $resp = null;
+    // check our secret key
+    $reCaptcha = new ReCaptcha($privatekey);
+    // if submitted check response
+    if ($_POST["g-recaptcha-response"]) {
+        $resp = $reCaptcha->verifyResponse(
+            $_SERVER["REMOTE_ADDR"],
+            $_POST["g-recaptcha-response"]
+        );
+    }
 
     $lang = !empty($_POST['lang']) ? $_POST['lang'] : "FR";
 
-    if (!$resp->is_valid) {
+    if (!is_null($resp) && !$resp->is_valid) {
         $error = $lang == "FR" ? 'Mauvais captcha! Rechargez le!' : 'Wrong captcha! Reload it!';
         $response = array('success' => false, 'error' => $error);
     } else {
