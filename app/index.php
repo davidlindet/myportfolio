@@ -91,14 +91,10 @@
             </ul>
         </nav>
         <div id="networks">
-            <a target="_blank" title="Facebook" href="http://www.facebook.com/Tanuki076" id="fb" class="network">Facebook</a>
-            <a target="_blank" title="Twitter" href="https://twitter.com/DLindet" id="tw" class="network">Twitter</a>
-            <a target="_blank" title="Google Plus" href="https://plus.google.com/104531589734662097658" id="gp" class="network">Google Plus</a>
-            <a target="_blank" title="LinkedIn" href="http://www.linkedin.com/in/davidlindet" id="li" class="network">LinkedIn</a>
-            <a target="_blank" title="GitHub" href="https://github.com/davidlindet" id="gh" class="network">GitHub</a>
-        </div>
-        <div id="copyright">
-            <p><strong>Copyright ©2014</strong><br>Based on a tutorial of <a href="http://fr.tuto.com/formateur/spykrew07-tutos.htm">Spykrew07</a></p>
+            <a target="_blank" title="Facebook" href="http://www.facebook.com/Tanuki076" id="fb" class="network"><i class="fa fa-facebook"></i></a>
+            <a target="_blank" title="Fickr" href="https://www.flickr.com/photos/98313907@N03/" id="fl" class="network"><i class="fa fa-flickr"></i></a>
+            <a target="_blank" title="LinkedIn" href="http://www.linkedin.com/in/davidlindet" id="li" class="network"><i class="fa fa-linkedin"></i></a>
+            <a target="_blank" title="GitHub" href="https://github.com/davidlindet" id="gh" class="network"><i class="fa fa-github"></i></a>
         </div>
     </aside>
 

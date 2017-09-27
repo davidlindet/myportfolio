@@ -289,44 +289,51 @@ h6 {
 }
 #networks {
     position: absolute;
-    bottom: 65px;
-    right: 45px;
+    bottom: 2em;
+    right: 0;
+    left: 0;
     display: inline-block;
+    text-align: center;
 }
 .network {
+    background: @color-red;
+    color: @color-white;
     display: inline-block;
-    width: 26px;
-    height: 26px;
-    text-indent: -7000px;
-    transition: 0.3s;
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0.2em;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+    padding: 0.2em;
+}
+.network-background {
+    background-position: left top;
+    background-size: 100% 200%;
+    transition: all 0.3s ease;
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
-}
-#fb { background:url('../img/sprites/networks.png') no-repeat 0px 0px; }
-#fb:hover { background:url('../img/sprites/networks.png') no-repeat 0px -26px; }
-
-#tw { background:url('../img/sprites/networks.png') no-repeat -26px 0px; }
-#tw:hover { background:url('../img/sprites/networks.png') no-repeat -26px -26px; }
-
-#gp { background:url('../img/sprites/networks.png') no-repeat -52px 0px; }
-#gp:hover { background:url('../img/sprites/networks.png') no-repeat -52px -26px; }
-
-#li { background:url('../img/sprites/networks.png') no-repeat -78px 0px; }
-#li:hover { background:url('../img/sprites/networks.png') no-repeat -78px -26px; }
-
-#gh { background:url('../img/sprites/networks.png') no-repeat -104px 0px; }
-#gh:hover { background:url('../img/sprites/networks.png') no-repeat -104px -26px; }
-
-#copyright {
-    position: absolute;
-    bottom: 20px;
-    right: 45px;
-    font-size: 10px;
-    cursor: default;
-    p {
-        line-height: 1.4em;
-        text-align: right;
+    &:hover {
+        color:  @color-white;
+        background-position:left bottom;
     }
+}
+
+#fb {
+    background: linear-gradient(to bottom, @color-red 50%, #4267b2 50%);
+    .network-background;
+}
+#fl {
+    background: linear-gradient(to bottom, @color-red 50%, #fa007d 50%);
+    .network-background;
+}
+#li {
+    background: linear-gradient(to bottom, @color-red 50%, #0084bf 50%);
+    .network-background;
+}
+#gh {
+    background: linear-gradient(to bottom, @color-red 50%, @color-black 50%);
+    .network-background;
 }
 
 // 7.0 -- Content
