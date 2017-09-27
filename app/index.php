@@ -79,9 +79,7 @@
             <a href="?lang=FR" id="FR" <?php echo $LANG == "FR" ? "class='active'" : ''; ?> title="Français" >Français</a>
             <a href="?lang=EN" id="EN" <?php echo $LANG == "EN" ? "class='active'" : ''; ?> title="English" >English</a>
         </div>
-        <div id="logo">
-            <img src="./public/img/content/logo.png">
-        </div>
+        <div id="logo" class="dlt-icon-lens"></div>
         <nav>
             <ul id="menu">
                 <li class="active"><a href="#home"><?php echo ($LANG == "FR") ? "Accueil" : "Home" ?></a></li>
@@ -93,7 +91,7 @@
             <a target="_blank" title="Facebook" href="http://www.facebook.com/Tanuki076" id="fb" class="network"><i class="fa fa-facebook"></i></a>
             <a target="_blank" title="Fickr" href="https://www.flickr.com/photos/98313907@N03/" id="fl" class="network"><i class="fa fa-flickr"></i></a>
             <a target="_blank" title="LinkedIn" href="http://www.linkedin.com/in/davidlindet" id="li" class="network"><i class="fa fa-linkedin"></i></a>
-            <a target="_blank" title="GitHub" href="https://github.com/davidlindet" id="gh" class="network"><i class="fa fa-github"></i></a>
+            <a target="_blank" title="GitHub" href="https://github.com/davidlindet" id="gh" class="network"><i class="fa fa-github-alt"></i></a>
         </div>
     </aside>
 

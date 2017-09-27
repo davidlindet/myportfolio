@@ -231,7 +231,10 @@ h6 {
     z-index: 999;
     width: 201px;
     height: 100%;
-    background-color: @color-blue;
+    background: @color-blue;
+    background: -moz-linear-gradient(left, #1c72a8 0%, @color-blue 25%, #1c72a8 55%, @color-blue 78%, @color-blue 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #1c72a8 0%,@color-blue 25%,#1c72a8 55%,@color-blue 78%, @color-blue 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #1c72a8 0%,@color-blue 25%,#1c72a8 55%,@color-blue 78%, @color-blue 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     -webkit-box-shadow: 7px 0px 7px 0px rgba(0,0,0,0.4);
     -moz-box-shadow: 7px 0px 7px 0px rgba(0,0,0,0.4);
     box-shadow: 7px 0px 7px 0px rgba(0,0,0,0.4);
@@ -241,6 +244,9 @@ h6 {
     width: 155px;
     height: 135px;
     margin: 20px 0 0 20px;
+    font-size: 10em;
+    color: @color-white;
+    text-align: center;
 }
 
 #menu {
@@ -291,11 +297,9 @@ h6 {
     display: inline-block;
     width: 1.5em;
     height: 1.5em;
-    margin: 0.2em;
     font-size: 1.5em;
     line-height: 1.5em;
     text-align: center;
-    padding: 0.2em;
 }
 .network-background {
     background-position: left top;
@@ -683,28 +687,6 @@ h6 {
     bottom: 20px;
     right: 30px;
     display: none;
-}
-#recaptcha_table {
-    position: relative;
-    width: 240px!important;
-    background: #999;
-}
-.recaptchatable .recaptcha_image_cell{
-    background: #999!important;
-}
-#recaptcha_image  {
-    width: 240px!important;
-}
-#recaptcha_image > img {
-    width: 240px!important;
-}
-#recaptcha_logo {
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-}
-.recaptcha_input_area input {
-    width: 200px!important;
 }
 
 // 8.0 -- Share Bar

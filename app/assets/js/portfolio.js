@@ -25,9 +25,9 @@ var portfolio = (function(jQuery) {
             transition_speed:5000,
             slides:
                 [
-                    {image:'assets/img/background/bg.jpg'},
-                    {image:'assets/img/background/bg2.jpg'},
-                    {image:'assets/img/background/bg3.jpg'}
+                    {image:'public/img/background/bg.jpg'},
+                    {image:'public/img/background/bg2.jpg'},
+                    {image:'public/img/background/bg3.jpg'}
                 ]
         });
     }
