@@ -1,7 +1,6 @@
 var portfolio = (function(jQuery) {
 
     var $ = jQuery;
-    var isNavBarDisplayed = true;
     var $activeProject = null;
 
     /**
@@ -45,6 +44,16 @@ var portfolio = (function(jQuery) {
 
         // scroll when click on section in navbar
         $('body').pageScroller({ navigation: '#menu' });
+
+        // init responsive button
+        $(".navbar-toggler").on("click", function(e){
+            e.preventDefault();
+            if ($("#sidebar").hasClass("open")) {
+                $("#sidebar").removeClass("open");
+            } else {
+                $("#sidebar").addClass("open");
+            }
+        })
     }
 
     /**
@@ -86,11 +95,13 @@ var portfolio = (function(jQuery) {
     //Show details about project (open slide)
     function showDetailsProject(){
         $("html").css("overflow", "hidden");
-        $('#sidebar').animate({left: (isNavBarDisplayed) ? '-260px' : '-300px'});
         $('#content_projects').fadeOut(1, function() {
             $("#active_project_wrapper").html($activeProject.html()).show();
         });
-        $("#projects").css("margin-left","40%");
+        if ($(window).width() > 768) {
+            $('#sidebar').animate({left: '-260px' });
+            $("#projects").css("margin-left","40%");
+        }
     }
 
     //Hide details about project (hide slide)
@@ -99,14 +110,10 @@ var portfolio = (function(jQuery) {
         $("#active_project_wrapper").html('').hide();
         $('#content_projects').fadeIn();
 
-        if(isNavBarDisplayed){
+        if($(window).width() > 768){
             $("#projects").css("margin-left","365px");
-            $('#sidebar').animate({left:'0'});
         }
-        else {
-            $("#projects").css("margin-left","160px");
-            $('#sidebar').animate({left:'-230px'});
-        }
+        $('#sidebar').animate({left:'0'});
         $("html").css("overflow", "auto");
     }
 

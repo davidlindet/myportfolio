@@ -39,7 +39,7 @@
                 Cela permet un comparatif des prix plus rapide.
             </p>
             <p>Code disponible sur <a target="_blank" href="https://github.com/davidlindet/bowsmanager" title="GitHub">GitHub</a></p>
-            <p>
+            <p class="screen-examples" >
                 <label>Captures:</label>
                 <a class="zoombox preview zgallery2" title="Page d'accueil" href="./public/img/projects/bowsmanager/home.jpg"><img width="100" src="./public/img/projects/bowsmanager/home.jpg"></a>
                 <a class="zoombox preview zgallery2" title="Détails du Client" href="./public/img/projects/bowsmanager/client_details.jpg"><img width="100" src="./public/img/projects/bowsmanager/client_details.jpg"></a>

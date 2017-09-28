@@ -80,6 +80,9 @@
             <a href="?lang=EN" id="EN" <?php echo $LANG == "EN" ? "class='active'" : ''; ?> title="English" >English</a>
         </div>
         <div id="logo" class="dlt-icon-lens"></div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault">
+            <i class="fa fa-bars"></i>
+        </button>
         <nav>
             <ul id="menu">
                 <li class="active"><a href="#home"><?php echo ($LANG == "FR") ? "Accueil" : "Home" ?></a></li>

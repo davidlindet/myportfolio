@@ -25,7 +25,7 @@
         <p>Cette application s'adapte au support (smartphone, tablette, ordinateur), afin d'offrir la meilleur expérience de jeu possible.</p>
         <p>Essayez le <a href="http://alchemyquest.david-lindet.fr/" title="Alchemy Quest" target="_blank" >ici</a></p>
         <p>Code disponible sur <a target="_blank" href="https://github.com/davidlindet/alchemyquest" title="GitHub">GitHub</a></p>
-        <p>
+        <p class="screen-examples">
             <label>Captures:</label>
             <a class="zoombox preview zgallery1" title="Partie en cours" href="./public/img/projects/alchemyquest/game.png"><img width="100" src="./public/img/projects/alchemyquest/game.png"></a>
             <a class="zoombox preview zgallery1" title="Classement" href="./public/img/projects/alchemyquest/hiscore.png"><img width="100" src="./public/img/projects/alchemyquest/hiscore.png"></a>
@@ -38,7 +38,7 @@
         <p>This application is responsive to offer the best gameplay experience.</p>
         <p>Try it <a href="http://alchemyquest.david-lindet.fr/" title="Alchemy Quest" target="_blank" >here</a></p>
         <p>Code available on <a target="_blank" href="https://github.com/davidlindet/alchemyquest" title="GitHub">GitHub</a></p>
-        <p>
+        <p class="screen-examples" >
             <label>Captures:</label>
             <a class="zoombox preview zgallery1" title="Game" href="./public/img/projects/alchemyquest/game.png"><img width="100" src="./public/img/projects/alchemyquest/game.png"></a>
             <a class="zoombox preview zgallery1" title="Ranking" href="./public/img/projects/alchemyquest/hiscore.png"><img width="100" src="./public/img/projects/alchemyquest/hiscore.png"></a>
