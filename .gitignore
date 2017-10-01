@@ -226,3 +226,7 @@ src/sections/contact/privateKey.php
 /app/public/
 !/vendor/lightbox2-2.9.0/dist/
 /app/sections/contact/privateKey.php
+!/app/assets/psd/logo.psd
+!/app/assets/psd/image4.psd
+!/app/assets/psd/technologies.psd
+!/app/assets/psd/h1_news.psd
