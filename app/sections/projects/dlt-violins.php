@@ -1,48 +1,45 @@
 <!-- DLT VIOLINS -->
 <section class="single_project carousel-cell" >
     <img src="./public/img/projects/dlt-violins.png">
-    <a href="#modal-alchemyquest" class="slideprojects" id="preview_alchemyquest" >
+    <a href="#modal-dltviolins" class="slideprojects" id="preview_dltviolins" >
         <section class="description">
             <h2>DLT VIOLINS</h2>
-            <p class="text">Alchemy Quest est un jeu inspiré de Bejeweled et développé en HTML5...</p>
+            <p class="text">DLT VIOLINS est un site vitrine d'artisants luthiers...</p>
         </section>
         <span class="more"><i class="plus-icon">+</i></span>
     </a>
-    <div id="modal-alchemyquest" class="modal">
-        <h3 class="title_pageslide">Alchemy Quest</h3>
+    <div id="modal-dltviolins" class="modal">
+        <h3 class="title_pageslide">DLT VIOLINS</h3>
         <ul class="technologies" >
             <li><label>Technologies:</label></li>
-            <li><a target="_blank" class="techno" id="html5" title="HTML 5" href="http://www.w3.org/TR/html51/" >HTML 5</a></li>
-            <li><a target="_blank" class="techno" id="css3" title="CSS 3" href="http://www.w3.org/TR/css3-selectors/" >CSS 3</a></li>
-            <li><a target="_blank" class="techno" id="jquery" title="Jquery" href="http://jquery.com/" >Jquery</a></li>
+            <li><a target="_blank" class="techno" id="wordpress" title="WordPress" href="https://fr.wordpress.org/" >WordPress</a></li>
             <li><a target="_blank" class="techno" id="photoshop" title="Photoshop" href="http://www.photoshop.com/" >Photoshop</a></li>
         </ul>
         <div class="clear"></div>
         <?php if($LANG == "FR"){ ?>
-        <p>Alchemy Quest est un jeu inspiré de Bejeweled et développé en HTML5. Basé sur un tutoriel, son développement m'a permis de découvrir en détails certains aspects d'HTML5 (WebSockets, Canvas...)</p>
-        <p>Le but de ce jeu est simple: obtenir le plus grand score. Pour cela il faut aligner au minimum 3 éléments identiques.
-        Arrivé à un certain palier de points la difficulté augmente. Il existe 3 modes de difficulté de départ (Facile, Moyen, Difficile).</p>
-        <p>Cette application s'adapte au support (smartphone, tablette, ordinateur), afin d'offrir la meilleur expérience de jeu possible.</p>
-        <p>Essayez le <a href="http://alchemyquest.david-lindet.fr/" title="Alchemy Quest" target="_blank" >ici</a></p>
-        <p>Code disponible sur <a target="_blank" href="https://github.com/davidlindet/alchemyquest" title="GitHub">GitHub</a></p>
+        <p>DLT VIOLINS est un site vitrine d'artisants luthiers.</p>
+        <p>Il permet à <b>David Leonard Wiedmer</b> et <b>Léa Trombert</b> de présenter leurs réalisations.</p>
+        <p>Ce site est basé sur le portail Wordpress. Le thème et les fonctionnalités intégrées (galerie d'instruments, formulaire de contact...) ont été développés spécifiquement pour ce site.</p>
+        <p>Vous pouvez découvrir ce site <a target="_blank" href="http://dlt-violins.com/" title="DLT Violins">ici</a></p>
         <p class="screen-examples">
             <label>Captures:</label>
-            <a class="zoombox preview zgallery1" title="Partie en cours" href="./public/img/projects/alchemyquest/game.png"><img width="100" src="./public/img/projects/alchemyquest/game.png"></a>
-            <a class="zoombox preview zgallery1" title="Classement" href="./public/img/projects/alchemyquest/hiscore.png"><img width="100" src="./public/img/projects/alchemyquest/hiscore.png"></a>
+            <a class="zoombox preview zgallery3" title="Léa Trombert" href="./public/img/projects/dlt-violins/lea.png"><img width="100" src="./public/img/projects/dlt-violins/lea.png"></a>
+            <a class="zoombox preview zgallery3" title="Instruments" href="./public/img/projects/dlt-violins/instruments.png"><img width="100" src="./public/img/projects/dlt-violins/instruments.png"></a>
+            <a class="zoombox preview zgallery3" title="Contact" href="./public/img/projects/dlt-violins/contact.png"><img width="100" src="./public/img/projects/dlt-violins/contact.png"></a>
         </p>
         <span class="close_project">Fermer</span>
         <?php } else { ?>
-        <p>Alchemy Quest is a game similar to Bejeweled and developed in HTML5. Based on a tutorial, it helped me to discover in details some aspects of HTML5 (WebSockets, Canvas...)</p>
-        <p>The goal of this game is pretty simple: have the biggest score. For that purpose you just have to align 3 similar elements.
-            When you reach a specific level of points the difficulty is increased. You have the choice between 3 starting modes of difficulty (Easy, Regular, Hard).</p>
-        <p>This application is responsive to offer the best gameplay experience.</p>
-        <p>Try it <a href="http://alchemyquest.david-lindet.fr/" title="Alchemy Quest" target="_blank" >here</a></p>
-        <p>Code available on <a target="_blank" href="https://github.com/davidlindet/alchemyquest" title="GitHub">GitHub</a></p>
-        <p>
+        <p>DLT VIOLINS is a website that presents the activity of violion makers.</p>
+        <p>With this website, <b>David Leonard Wiedmer</b> and <b>Léa Trombert</b> can show their work on the internet.</p>
+        <p>It's based on Wordpress. The theme and features put in place (instruments gallery, contact form...) were developped for this website.</p>
+        <p>You can visit it <a target="_blank" href="http://dlt-violins.com/" title="DLT Violins">here</a></p>
+        <p class="screen-examples">
             <label>Captures:</label>
-            <a class="zoombox preview zgallery1" title="Game" href="./public/img/projects/alchemyquest/game.png"><img width="100" src="./public/img/projects/alchemyquest/game.png"></a>
-            <a class="zoombox preview zgallery1" title="Ranking" href="./public/img/projects/alchemyquest/hiscore.png"><img width="100" src="./public/img/projects/alchemyquest/hiscore.png"></a>
+            <a class="zoombox preview zgallery3" title="Léa Trombert" href="./public/img/projects/dlt-violins/lea.png"><img width="100" src="./public/img/projects/dlt-violins/lea.png"></a>
+            <a class="zoombox preview zgallery3" title="Instruments" href="./public/img/projects/dlt-violins/instruments.png"><img width="100" src="./public/img/projects/dlt-violins/instruments.png"></a>
+            <a class="zoombox preview zgallery3" title="Contact" href="./public/img/projects/dlt-violins/contact.png"><img width="100" src="./public/img/projects/dlt-violins/contact.png"></a>
         </p>
+
         <span class="close_project">Close</span>
         <?php } ?>
     </div>

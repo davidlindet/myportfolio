@@ -20,28 +20,18 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <?php /*
-         <link rel="apple-touch-icon" sizes="57x57" href="<?php echo esc_url(get_template_directory_uri()); ?>/tpl/img/icons/apple-touch-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="<?php echo esc_url(get_template_directory_uri()); ?>/tpl/img/icons/apple-touch-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="<?php echo esc_url(get_template_directory_uri()); ?>/tpl/img/icons/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="<?php echo esc_url(get_template_directory_uri()); ?>/tpl/img/icons/apple-touch-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="<?php echo esc_url(get_template_directory_uri()); ?>/tpl/img/icons/apple-touch-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="<?php echo esc_url(get_template_directory_uri()); ?>/tpl/img/icons/apple-touch-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="<?php echo esc_url(get_template_directory_uri()); ?>/tpl/img/icons/apple-touch-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="<?php echo esc_url(get_template_directory_uri()); ?>/tpl/img/icons/apple-touch-icon-152x152.png">
-        <link rel="icon" type="image/png" href="<?php echo esc_url(get_template_directory_uri()); ?>/tpl/img/icons/favicon-32x32.png" sizes="32x32">
-        <link rel="icon" type="image/png" href="<?php echo esc_url(get_template_directory_uri()); ?>/tpl/img/icons/favicon-96x96.png" sizes="96x96">
-        <link rel="icon" type="image/png" href="<?php echo esc_url(get_template_directory_uri()); ?>/tpl/img/icons/favicon-16x16.png" sizes="16x16">
-        <link rel="manifest" href="<?php echo esc_url(get_template_directory_uri()); ?>/tpl/img/icons/manifest.json">
-        <link rel="shortcut icon" href="<?php echo esc_url(get_template_directory_uri()); ?>/tpl/img/icons/favicon.ico">
-        <meta name="msapplication-TileColor" content="#ffffff">
-        <meta name="msapplication-TileImage" content="<?php echo esc_url(get_template_directory_uri()); ?>/tpl/img/icons/mstile-144x144.png">
-        <meta name="msapplication-config" content="<?php echo esc_url(get_template_directory_uri()); ?>/tpl/img/icons/browserconfig.xml">
-        <meta name="theme-color" content="#ffffff">
- */ ?>
     <link rel="stylesheet" href="./public/css/vendor.min.css" />
     <link rel="stylesheet" href="./public/css/app.min.css" />
-    <link rel="icon" type="image/png" href="./public/img/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="./public/img/favicon.png" />
+    <link rel="apple-touch-icon" href="./public/img/icons/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="./public/img/icons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="./public/img/icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="./public/img/icons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="./public/img/icons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="./public/img/icons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="./public/img/icons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="./public/img/icons/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./public/img/icons/apple-touch-icon-180x180.png" />
 </head>
  
 <body>
@@ -109,8 +99,8 @@
     ?>
 
     <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-    <script type="text/javascript" src="./public/js/vendor.js"></script>
-    <script type="text/javascript" src="./public/js/app.js"></script>
+    <script type="text/javascript" src="./public/js/vendor.min.js"></script>
+    <script type="text/javascript" src="./public/js/app.min.js"></script>
 
     <!-- Script Google + -->
     <script type="text/javascript">

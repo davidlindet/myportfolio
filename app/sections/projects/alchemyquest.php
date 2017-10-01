@@ -4,7 +4,12 @@
     <a href="#modal-alchemyquest" class="slideprojects" id="preview_alchemyquest" >
         <section class="description">
             <h2>Alchemy Quest</h2>
-            <p class="text">Alchemy Quest est un jeu inspiré de Bejeweled et développé en HTML5...</p>
+            <?php if($LANG == "FR"){ ?>
+                <p class="text">Alchemy Quest est un jeu inspiré de Bejeweled et développé en HTML5...</p>
+            <?php } else { ?>
+                <p class="text">Alchemy Quest is a game similar to Bejeweled and developed in HTML5...</p>
+            <?php } ?>
+
         </section>
         <span class="more"><i class="plus-icon">+</i></span>
     </a>
