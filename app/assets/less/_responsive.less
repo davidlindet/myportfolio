@@ -1,0 +1,155 @@
+/**
+    File: _responsive.less
+    Description: Contains Responsive rules
+    Summary:
+        1.0 -- Small PC Screen
+        2.0 -- Tablet
+        3.0 - Phone
+
+ */
+/* 1.0 -- Small PC Screen */
+@media only screen  and (min-width: 769px) and (max-width: 1295px) {
+    #portrait img {
+        width: 100%;
+    }
+}
+/* 2.0 -- Tablet */
+@media only screen and (max-width: 768px) {
+
+    #sidebar {
+        right: 0;
+        z-index: 999;
+        min-height: 5em;
+        height: auto;
+        width: 100%;
+        background: #2088c9;
+    }
+    #logo {
+        font-size: 4em;
+        position: absolute;
+        top: 0.1em;
+        left: 0.5em;
+        margin: 0;
+        height: auto;
+        width: auto;
+    }
+    #sidebar {
+        #menu {
+            display: none;
+            text-align: left;
+            margin-top: 5em;
+            li {
+                width: 100%;
+                padding: 1em;
+                text-align: center;
+                &.active {
+                    border-top: 2px solid @color-red;
+                    background: @color-white;
+                }
+            }
+        }
+        #networks {
+            display: none;
+            .network {
+                margin: 0.2em;
+                font-size: 2.5em;
+            }
+        }
+        &.open {
+            #networks {
+                display: block;
+                position: static;
+                padding: 1em;
+            }
+            #menu {
+                display: block;
+            }
+        }
+    }
+
+    #lang_bar {
+        display: none;
+    }
+    #share_bar {
+        display: none;
+    }
+    .navbar-toggler {
+        display: block;
+        position: absolute;
+        top: .3em;
+        right: 1em;
+        font-size: 2em;
+        padding: 0.3em 0.8em;
+        border-radius: 10%;
+        background: transparent;
+        color: @color-white;
+        border: 2px solid @color-white;
+    }
+
+    .section {
+        min-width: 0;
+        margin: 0;
+        height: auto;
+        h1 {
+            line-height: 0.8em;
+            padding-left: 0.5em;
+            span {
+                display: inline-block;
+            }
+        }
+    }
+    #portrait {
+        width: 100%;
+        border: none;
+        float: none;
+        padding: 0;
+        img {
+            width: 45%;
+        }
+    }
+    #latest_projects {
+        padding: 0;
+        li {
+            float: left;
+            width: 50%;
+        }
+        h2 {
+            text-align: left;
+        }
+    }
+    #pageslide {
+        width: 95%;
+    }
+    .screen-examples {
+        display: none;
+    }
+    #contact {
+        margin-bottom: 15em;
+    }
+    #form {
+        width: auto;
+
+    }
+    #submit {
+        position: static;
+        font-size: 2em;
+    }
+}
+/* 3.0 - Phone */
+@media only screen and (max-width: 590px) {
+    #portrait img {
+        width: 100%;
+    }
+    #latest_projects li {
+        float: none;
+        width: 100%;
+    }
+    .single_project {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 400px) {
+    #pageslide {
+        width: 90%;
+    }
+}

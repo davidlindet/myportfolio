@@ -1,0 +1,35 @@
+{
+  "name": "dlt.portfolio",
+  "version": "1.0.0",
+  "description": "David Lindet Portfolio",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidlindet/myportfolio.git"
+  },
+  "author": "David Lindet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidlindet/myportfolio/issues"
+  },
+  "homepage": "https://github.com/davidlindet/myportfolio#readme",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-less": "^3.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglifyjs": "^0.6.2",
+    "less-plugin-autoprefix": "^1.5.1"
+  },
+  "dependencies": {
+    "flickity": "^2.0.10",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "jquery-serializeobject": "^1.0.0",
+    "jquery.browser": "^0.1.0"
+  }
+}

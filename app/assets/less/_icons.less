@@ -1,0 +1,34 @@
+/**
+    File: _icons.less
+    Description: Contains specific icons rules
+ */
+
+[data-icon]:before {
+    font-family: "dlt" !important;
+    content: attr(data-icon);
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="dlt-icon-"]:before,
+[class*=" dlt-icon-"]:before {
+    font-family: "dlt" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.dlt-icon-lens:before {
+    content: "\e001";
+}
